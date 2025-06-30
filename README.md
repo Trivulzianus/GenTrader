@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-06-30 20:54:39**
+**Last Updated: 2025-06-30 21:04:00**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,340.42** |
-| Cash | $411.05 |
-| Holdings Value | $99,929.37 |
+| Cash | $291.52 |
+| Holdings Value | $100,048.90 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -27,13 +27,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | C | 30 | $84.39 | $85.12 | $2,553.60 | 85 |
 | CAT | 5 | $381.20 | $388.21 | $1,941.05 | 65 |
 | COST | 2 | $991.47 | $989.94 | $1,979.88 | 65 |
-| CRM | 9 | $274.67 | $272.69 | $2,454.21 | 85 |
-| CSCO | 28 | $68.92 | $69.38 | $1,942.64 | 65 |
+| CRM | 9 | $274.67 | $272.69 | $2,454.21 | 75 |
+| CSCO | 32 | $68.98 | $69.38 | $2,220.16 | 75 |
 | CVX | 13 | $143.34 | $143.19 | $1,861.47 | 65 |
 | DIS | 20 | $123.12 | $124.01 | $2,480.20 | 85 |
 | GOOGL | 15 | $178.80 | $176.23 | $2,643.45 | 85 |
 | GS | 3 | $706.65 | $707.75 | $2,123.25 | 75 |
-| HD | 6 | $370.25 | $366.64 | $2,199.84 | 75 |
+| HD | 6 | $370.25 | $366.64 | $2,199.84 | 85 |
 | INTC | 87 | $22.36 | $22.40 | $1,948.80 | 65 |
 | JNJ | 13 | $151.96 | $152.75 | $1,985.75 | 65 |
 | JPM | 7 | $285.02 | $289.91 | $2,029.37 | 65 |
@@ -42,10 +42,10 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | MA | 4 | $537.87 | $561.94 | $2,247.76 | 65 |
 | META | 3 | $712.71 | $738.09 | $2,214.27 | 85 |
 | MRK | 25 | $78.92 | $79.16 | $1,979.00 | 65 |
-| MSFT | 4 | $492.89 | $497.41 | $1,989.64 | 65 |
+| MSFT | 4 | $492.89 | $497.41 | $1,989.64 | 75 |
 | NFLX | 1 | $1,334.07 | $1,339.13 | $1,339.13 | 65 |
 | NKE | 36 | $71.18 | $71.04 | $2,557.44 | 85 |
-| NVDA | 14 | $157.78 | $157.99 | $2,211.86 | 75 |
+| NVDA | 13 | $157.77 | $157.99 | $2,053.87 | 65 |
 | ORCL | 9 | $219.56 | $218.63 | $1,967.67 | 65 |
 | PEP | 17 | $131.85 | $132.04 | $2,244.68 | 75 |
 | PFE | 93 | $24.27 | $24.24 | $2,254.32 | 75 |
@@ -54,7 +54,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | QCOM | 16 | $159.24 | $159.26 | $2,548.16 | 85 |
 | T | 88 | $28.54 | $28.94 | $2,546.72 | 85 |
 | TGT | 23 | $98.82 | $98.65 | $2,268.95 | 75 |
-| TSLA | 7 | $320.69 | $317.66 | $2,223.62 | 65 |
+| TSLA | 7 | $320.69 | $317.66 | $2,223.62 | 75 |
 | UNH | 8 | $306.63 | $311.97 | $2,495.76 | 85 |
 | UNP | 11 | $232.22 | $230.08 | $2,530.88 | 85 |
 | V | 6 | $344.95 | $355.05 | $2,130.30 | 65 |
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-06-30 21:03:51 | SELL | NVDA | 1 | $157.99 | $0.21 | 65 |
+| 2025-06-30 21:03:51 | BUY | CSCO | 4 | $69.38 | N/A | 75 |
 | 2025-06-30 20:54:33 | BUY | NVDA | 1 | $157.99 | N/A | 75 |
 | 2025-06-30 20:54:33 | BUY | UNH | 1 | $311.97 | N/A | 85 |
 | 2025-06-30 20:54:33 | BUY | CRM | 1 | $272.69 | N/A | 85 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-06-30 20:04:10 | SELL | AMZN | 2 | $219.39 | $-14.88 | 65 |
 | 2025-06-30 20:04:10 | SELL | C | 3 | $85.10 | $2.15 | 75 |
 | 2025-06-30 20:04:10 | BUY | BAC | 1 | $47.28 | N/A | 85 |
-| 2025-06-30 20:04:10 | BUY | DIS | 4 | $123.95 | N/A | 85 |
-| 2025-06-30 19:56:27 | SELL | ADBE | 1 | $387.02 | $1.05 | 65 |
 
 <!--TRADE_LOG_END--> 
