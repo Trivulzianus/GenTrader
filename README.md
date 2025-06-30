@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-06-30 20:17:07**
+**Last Updated: 2025-06-30 20:30:11**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,340.42** |
-| Cash | $439.08 |
-| Holdings Value | $99,901.34 |
+| Cash | $7.94 |
+| Holdings Value | $100,332.48 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -23,11 +23,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | AVGO | 7 | $276.11 | $275.65 | $1,929.55 | 65 |
 | AXP | 6 | $315.89 | $318.98 | $1,913.88 | 65 |
 | BA | 10 | $214.55 | $209.53 | $2,095.30 | 65 |
-| BAC | 42 | $47.20 | $47.32 | $1,987.44 | 65 |
-| C | 27 | $84.30 | $85.12 | $2,298.24 | 75 |
+| BAC | 53 | $47.22 | $47.32 | $2,507.96 | 85 |
+| C | 29 | $84.36 | $85.12 | $2,468.48 | 85 |
 | CAT | 5 | $381.20 | $388.21 | $1,941.05 | 65 |
 | COST | 2 | $991.47 | $989.94 | $1,979.88 | 65 |
-| CRM | 8 | $274.92 | $272.69 | $2,181.52 | 75 |
+| CRM | 8 | $274.92 | $272.69 | $2,181.52 | 85 |
 | CSCO | 28 | $68.92 | $69.38 | $1,942.64 | 65 |
 | CVX | 13 | $143.34 | $143.19 | $1,861.47 | 65 |
 | DIS | 20 | $123.12 | $124.01 | $2,480.20 | 85 |
@@ -58,7 +58,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | UNH | 8 | $306.63 | $311.97 | $2,495.76 | 85 |
 | UNP | 11 | $232.22 | $230.08 | $2,530.88 | 85 |
 | V | 6 | $344.95 | $355.05 | $2,130.30 | 65 |
-| VZ | 51 | $42.72 | $43.27 | $2,206.77 | 75 |
+| VZ | 45 | $42.64 | $43.27 | $1,947.15 | 65 |
 | WFC | 32 | $79.91 | $80.12 | $2,563.84 | 85 |
 | WMT | 26 | $97.15 | $97.78 | $2,542.28 | 85 |
 | XOM | 18 | $109.40 | $107.80 | $1,940.40 | 65 |
@@ -87,6 +87,9 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-06-30 20:30:04 | SELL | VZ | 6 | $43.27 | $3.32 | 65 |
+| 2025-06-30 20:30:04 | BUY | BAC | 11 | $47.32 | N/A | 85 |
+| 2025-06-30 20:30:04 | BUY | C | 2 | $85.12 | N/A | 85 |
 | 2025-06-30 20:17:01 | SELL | BAC | 11 | $47.32 | $1.07 | 65 |
 | 2025-06-30 20:17:01 | BUY | VZ | 6 | $43.27 | N/A | 75 |
 | 2025-06-30 20:04:10 | SELL | AMZN | 2 | $219.39 | $-14.88 | 65 |
@@ -109,8 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-06-30 19:46:44 | SELL | VZ | 1 | $43.18 | N/A | 65 |
 | 2025-06-30 19:46:44 | SELL | T | 1 | $28.93 | N/A | 85 |
 | 2025-06-30 19:39:40 | SELL | MSFT | 1 | $498.41 | N/A | 65 |
-| 2025-06-30 19:39:40 | SELL | UNH | 1 | $311.05 | N/A | 65 |
-| 2025-06-30 19:39:40 | BUY | AAPL | 2 | $206.65 | N/A | 85 |
-| 2025-06-30 19:39:40 | BUY | BAC | 11 | $47.10 | N/A | 85 |
 
 <!--TRADE_LOG_END--> 
