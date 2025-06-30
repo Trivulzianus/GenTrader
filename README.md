@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-06-30 22:49:04**
+**Last Updated: 2025-06-30 22:55:14**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,340.42** |
-| Cash | $450.08 |
-| Holdings Value | $99,890.34 |
+| Cash | $292.09 |
+| Holdings Value | $100,048.33 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -45,7 +45,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | MSFT | 4 | $492.89 | $497.41 | $1,989.64 | 65 |
 | NFLX | 1 | $1,334.07 | $1,339.13 | $1,339.13 | 65 |
 | NKE | 36 | $71.18 | $71.04 | $2,557.44 | 85 |
-| NVDA | 13 | $157.77 | $157.99 | $2,053.87 | 70 |
+| NVDA | 14 | $157.78 | $157.99 | $2,211.86 | 75 |
 | ORCL | 9 | $219.56 | $218.63 | $1,967.67 | 65 |
 | PEP | 17 | $131.85 | $132.04 | $2,244.68 | 75 |
 | PFE | 93 | $24.27 | $24.24 | $2,254.32 | 75 |
@@ -54,10 +54,10 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | QCOM | 16 | $159.24 | $159.26 | $2,548.16 | 85 |
 | T | 88 | $28.54 | $28.94 | $2,546.72 | 85 |
 | TGT | 22 | $98.83 | $98.65 | $2,170.30 | 75 |
-| TSLA | 7 | $320.69 | $317.66 | $2,223.62 | 65 |
+| TSLA | 7 | $320.69 | $317.66 | $2,223.62 | 75 |
 | UNH | 8 | $306.63 | $311.97 | $2,495.76 | 85 |
 | UNP | 11 | $232.22 | $230.08 | $2,530.88 | 85 |
-| V | 6 | $344.95 | $355.05 | $2,130.30 | 65 |
+| V | 6 | $344.95 | $355.05 | $2,130.30 | 75 |
 | VZ | 52 | $42.73 | $43.27 | $2,250.04 | 75 |
 | WFC | 32 | $79.91 | $80.12 | $2,563.84 | 85 |
 | WMT | 26 | $97.15 | $97.78 | $2,542.28 | 85 |
@@ -87,6 +87,7 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-06-30 22:55:05 | BUY | NVDA | 1 | $157.99 | N/A | 75 |
 | 2025-06-30 22:48:54 | SELL | CSCO | 3 | $69.38 | $1.21 | 65 |
 | 2025-06-30 22:48:54 | BUY | VZ | 6 | $43.27 | N/A | 75 |
 | 2025-06-30 22:40:39 | SELL | INTC | 12 | $22.40 | $0.40 | 65 |
@@ -111,6 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-06-30 21:45:02 | SELL | INTC | 12 | $22.40 | $0.40 | 65 |
 | 2025-06-30 21:45:02 | SELL | VZ | 6 | $43.27 | $3.26 | 65 |
 | 2025-06-30 21:45:02 | BUY | BAC | 12 | $47.32 | N/A | 85 |
-| 2025-06-30 21:45:02 | BUY | C | 1 | $85.12 | N/A | 85 |
 
 <!--TRADE_LOG_END--> 
