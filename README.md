@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-01 21:53:11**
+**Last Updated: 2025-07-01 22:04:19**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$101,079.66** |
-| Cash | $829.41 |
-| Holdings Value | $100,250.25 |
+| Cash | $503.02 |
+| Holdings Value | $100,576.64 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -32,11 +32,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | CVX | 16 | $143.71 | $145.57 | $2,329.12 | 85 |
 | DIS | 16 | $122.87 | $123.49 | $1,975.84 | 65 |
 | GOOGL | 14 | $175.62 | $175.84 | $2,461.76 | 85 |
-| GS | 3 | $706.65 | $706.46 | $2,119.38 | 65 |
+| GS | 3 | $706.65 | $706.46 | $2,119.38 | 75 |
 | HD | 7 | $369.90 | $373.16 | $2,612.12 | 85 |
 | INTC | 82 | $22.23 | $22.85 | $1,873.70 | 65 |
-| JNJ | 13 | $151.97 | $155.92 | $2,026.96 | 75 |
-| JPM | 7 | $285.02 | $290.41 | $2,032.87 | 75 |
+| JNJ | 12 | $151.64 | $155.92 | $1,871.04 | 65 |
+| JPM | 7 | $285.02 | $290.41 | $2,032.87 | 65 |
 | KO | 26 | $70.43 | $71.67 | $1,863.42 | 65 |
 | LLY | 3 | $767.33 | $775.90 | $2,327.70 | 75 |
 | MA | 4 | $537.87 | $564.61 | $2,258.44 | 65 |
@@ -44,7 +44,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | MRK | 30 | $79.35 | $81.81 | $2,454.30 | 85 |
 | MSFT | 4 | $492.89 | $492.05 | $1,968.20 | 85 |
 | NFLX | 1 | $1,334.07 | $1,293.60 | $1,293.60 | 85 |
-| NKE | 26 | $70.33 | $73.41 | $1,908.66 | 65 |
+| NKE | 29 | $70.65 | $73.41 | $2,128.89 | 75 |
 | NVDA | 16 | $153.32 | $153.30 | $2,452.80 | 85 |
 | ORCL | 9 | $219.56 | $218.96 | $1,970.64 | 65 |
 | PEP | 16 | $131.60 | $135.26 | $2,164.16 | 75 |
@@ -57,11 +57,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | TSLA | 7 | $287.46 | $300.71 | $2,104.97 | 65 |
 | UNH | 8 | $306.63 | $326.14 | $2,609.12 | 85 |
 | UNP | 11 | $232.22 | $235.57 | $2,591.27 | 85 |
-| V | 6 | $344.95 | $355.47 | $2,132.82 | 75 |
-| VZ | 43 | $42.58 | $43.68 | $1,878.24 | 65 |
+| V | 6 | $344.95 | $355.47 | $2,132.82 | 85 |
+| VZ | 49 | $42.72 | $43.68 | $2,140.32 | 75 |
 | WFC | 30 | $79.85 | $81.49 | $2,444.70 | 85 |
 | WMT | 25 | $97.07 | $98.24 | $2,456.00 | 85 |
-| XOM | 22 | $109.37 | $109.24 | $2,403.28 | 80 |
+| XOM | 22 | $109.37 | $109.24 | $2,403.28 | 85 |
 
 <!--PORTFOLIO_STATUS_END-->
 
@@ -87,6 +87,9 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-01 22:04:08 | SELL | JNJ | 1 | $155.92 | $3.95 | 65 |
+| 2025-07-01 22:04:08 | BUY | NKE | 3 | $73.41 | N/A | 75 |
+| 2025-07-01 22:04:08 | BUY | VZ | 6 | $43.68 | N/A | 75 |
 | 2025-07-01 21:53:05 | SELL | C | 2 | $86.27 | $4.06 | 65 |
 | 2025-07-01 21:53:05 | SELL | VZ | 6 | $43.68 | $5.79 | 65 |
 | 2025-07-01 21:53:05 | BUY | JNJ | 1 | $155.92 | N/A | 75 |
@@ -109,8 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-01 20:48:31 | SELL | AMD | 1 | $136.11 | $-2.68 | 75 |
 | 2025-07-01 20:48:31 | SELL | KO | 1 | $71.67 | $1.19 | 65 |
 | 2025-07-01 20:48:31 | SELL | DIS | 3 | $123.49 | $1.56 | 65 |
-| 2025-07-01 20:48:31 | BUY | XOM | 2 | $109.24 | N/A | 85 |
-| 2025-07-01 20:48:31 | BUY | NKE | 4 | $73.41 | N/A | 85 |
-| 2025-07-01 20:40:29 | SELL | KO | 3 | $71.67 | $3.21 | 65 |
 
 <!--TRADE_LOG_END--> 
