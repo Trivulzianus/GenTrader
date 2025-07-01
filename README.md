@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-01 08:57:43**
+**Last Updated: 2025-07-01 09:08:33**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,340.42** |
-| Cash | $104.80 |
-| Holdings Value | $100,235.62 |
+| Cash | $127.20 |
+| Holdings Value | $100,213.22 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -24,17 +24,17 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | AXP | 7 | $316.33 | $318.98 | $2,232.86 | 65 |
 | BA | 10 | $214.55 | $209.53 | $2,095.30 | 65 |
 | BAC | 41 | $47.19 | $47.32 | $1,940.12 | 65 |
-| C | 23 | $84.16 | $85.12 | $1,957.76 | 65 |
+| C | 23 | $84.16 | $85.12 | $1,957.76 | 85 |
 | CAT | 5 | $381.20 | $388.21 | $1,941.05 | 65 |
 | COST | 2 | $991.47 | $989.94 | $1,979.88 | 65 |
-| CRM | 9 | $274.67 | $272.69 | $2,454.21 | 75 |
+| CRM | 9 | $274.67 | $272.69 | $2,454.21 | 85 |
 | CSCO | 28 | $68.92 | $69.38 | $1,942.64 | 65 |
 | CVX | 13 | $143.34 | $143.19 | $1,861.47 | 65 |
 | DIS | 16 | $122.90 | $124.01 | $1,984.16 | 65 |
 | GOOGL | 15 | $178.80 | $176.23 | $2,643.45 | 85 |
 | GS | 3 | $706.65 | $707.75 | $2,123.25 | 75 |
 | HD | 7 | $369.73 | $366.64 | $2,566.48 | 85 |
-| INTC | 88 | $22.36 | $22.40 | $1,971.20 | 65 |
+| INTC | 87 | $22.36 | $22.40 | $1,948.80 | 65 |
 | JNJ | 13 | $151.96 | $152.75 | $1,985.75 | 65 |
 | JPM | 7 | $285.02 | $289.91 | $2,029.37 | 65 |
 | KO | 28 | $70.48 | $70.75 | $1,981.00 | 65 |
@@ -42,7 +42,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | MA | 4 | $537.87 | $561.94 | $2,247.76 | 65 |
 | META | 3 | $712.71 | $738.09 | $2,214.27 | 90 |
 | MRK | 28 | $78.95 | $79.16 | $2,216.48 | 75 |
-| MSFT | 4 | $492.89 | $497.41 | $1,989.64 | 75 |
+| MSFT | 4 | $492.89 | $497.41 | $1,989.64 | 65 |
 | NFLX | 1 | $1,334.07 | $1,339.13 | $1,339.13 | 65 |
 | NKE | 36 | $71.18 | $71.04 | $2,557.44 | 85 |
 | NVDA | 13 | $157.77 | $157.99 | $2,053.87 | 65 |
@@ -87,6 +87,7 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-01 09:08:24 | SELL | INTC | 1 | $22.40 | $0.04 | 65 |
 | 2025-07-01 08:57:38 | SELL | NVDA | 1 | $157.99 | $0.21 | 65 |
 | 2025-07-01 08:57:38 | SELL | INTC | 11 | $22.40 | $0.37 | 65 |
 | 2025-07-01 08:57:38 | BUY | V | 1 | $355.05 | N/A | 85 |
@@ -111,6 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-01 07:22:00 | SELL | NVDA | 1 | $157.99 | $0.21 | 65 |
 | 2025-07-01 07:22:00 | BUY | MRK | 3 | $79.16 | N/A | 75 |
 | 2025-07-01 07:10:30 | SELL | MRK | 3 | $79.16 | $0.64 | 65 |
-| 2025-07-01 07:10:30 | SELL | VZ | 6 | $43.27 | $3.26 | 65 |
 
 <!--TRADE_LOG_END--> 
