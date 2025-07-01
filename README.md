@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-01 03:32:19**
+**Last Updated: 2025-07-01 04:00:43**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,340.42** |
-| Cash | $205.73 |
-| Holdings Value | $100,134.69 |
+| Cash | $191.98 |
+| Holdings Value | $100,148.44 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -21,7 +21,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | AMD | 14 | $142.83 | $141.90 | $1,986.60 | 65 |
 | AMZN | 9 | $228.48 | $219.39 | $1,974.51 | 65 |
 | AVGO | 7 | $276.11 | $275.65 | $1,929.55 | 65 |
-| AXP | 7 | $316.33 | $318.98 | $2,232.86 | 65 |
+| AXP | 7 | $316.33 | $318.98 | $2,232.86 | 75 |
 | BA | 10 | $214.55 | $209.53 | $2,095.30 | 65 |
 | BAC | 42 | $47.20 | $47.32 | $1,987.44 | 65 |
 | C | 30 | $84.39 | $85.12 | $2,553.60 | 85 |
@@ -41,7 +41,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | LLY | 3 | $767.33 | $779.53 | $2,338.59 | 65 |
 | MA | 4 | $537.87 | $561.94 | $2,247.76 | 65 |
 | META | 3 | $712.71 | $738.09 | $2,214.27 | 85 |
-| MRK | 28 | $78.95 | $79.16 | $2,216.48 | 75 |
+| MRK | 32 | $78.97 | $79.16 | $2,533.12 | 85 |
 | MSFT | 4 | $492.89 | $497.41 | $1,989.64 | 65 |
 | NFLX | 1 | $1,334.07 | $1,339.13 | $1,339.13 | 65 |
 | NKE | 36 | $71.18 | $71.04 | $2,557.44 | 85 |
@@ -57,8 +57,8 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | TSLA | 7 | $320.69 | $317.66 | $2,223.62 | 75 |
 | UNH | 8 | $306.63 | $311.97 | $2,495.76 | 85 |
 | UNP | 11 | $232.22 | $230.08 | $2,530.88 | 85 |
-| V | 6 | $344.95 | $355.05 | $2,130.30 | 75 |
-| VZ | 52 | $42.73 | $43.27 | $2,250.04 | 75 |
+| V | 6 | $344.95 | $355.05 | $2,130.30 | 65 |
+| VZ | 45 | $42.64 | $43.27 | $1,947.15 | 65 |
 | WFC | 32 | $79.91 | $80.12 | $2,563.84 | 85 |
 | WMT | 26 | $97.15 | $97.78 | $2,542.28 | 85 |
 | XOM | 18 | $109.40 | $107.80 | $1,940.40 | 65 |
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-01 04:00:37 | SELL | VZ | 7 | $43.27 | $3.80 | 65 |
+| 2025-07-01 04:00:37 | BUY | MRK | 4 | $79.16 | N/A | 85 |
 | 2025-07-01 03:32:12 | SELL | INTC | 1 | $22.40 | $0.04 | 65 |
 | 2025-07-01 03:32:12 | SELL | DIS | 2 | $124.01 | $1.97 | 65 |
 | 2025-07-01 03:32:12 | SELL | PFE | 1 | $24.24 | $-0.03 | 75 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-01 00:13:27 | BUY | T | 1 | $28.94 | N/A | 85 |
 | 2025-06-30 23:53:42 | SELL | NVDA | 1 | $157.99 | $0.21 | 65 |
 | 2025-06-30 23:53:42 | BUY | C | 7 | $85.12 | N/A | 85 |
-| 2025-06-30 23:45:00 | SELL | BAC | 12 | $47.32 | $1.15 | 65 |
-| 2025-06-30 23:45:00 | SELL | C | 7 | $85.12 | $5.14 | 65 |
 
 <!--TRADE_LOG_END--> 
