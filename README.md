@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-01 07:10:36**
+**Last Updated: 2025-07-01 07:22:04**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,340.42** |
-| Cash | $375.32 |
-| Holdings Value | $99,965.10 |
+| Cash | $295.83 |
+| Holdings Value | $100,044.59 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -33,19 +33,19 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | DIS | 16 | $122.90 | $124.01 | $1,984.16 | 65 |
 | GOOGL | 15 | $178.80 | $176.23 | $2,643.45 | 85 |
 | GS | 3 | $706.65 | $707.75 | $2,123.25 | 75 |
-| HD | 7 | $369.73 | $366.64 | $2,566.48 | 85 |
+| HD | 7 | $369.73 | $366.64 | $2,566.48 | 75 |
 | INTC | 101 | $22.37 | $22.40 | $2,262.40 | 75 |
 | JNJ | 13 | $151.96 | $152.75 | $1,985.75 | 65 |
 | JPM | 7 | $285.02 | $289.91 | $2,029.37 | 65 |
 | KO | 28 | $70.48 | $70.75 | $1,981.00 | 65 |
-| LLY | 3 | $767.33 | $779.53 | $2,338.59 | 65 |
+| LLY | 3 | $767.33 | $779.53 | $2,338.59 | 75 |
 | MA | 4 | $537.87 | $561.94 | $2,247.76 | 65 |
 | META | 3 | $712.71 | $738.09 | $2,214.27 | 90 |
-| MRK | 25 | $78.92 | $79.16 | $1,979.00 | 65 |
-| MSFT | 4 | $492.89 | $497.41 | $1,989.64 | 65 |
+| MRK | 28 | $78.95 | $79.16 | $2,216.48 | 75 |
+| MSFT | 4 | $492.89 | $497.41 | $1,989.64 | 75 |
 | NFLX | 1 | $1,334.07 | $1,339.13 | $1,339.13 | 65 |
 | NKE | 36 | $71.18 | $71.04 | $2,557.44 | 85 |
-| NVDA | 14 | $157.78 | $157.99 | $2,211.86 | 75 |
+| NVDA | 13 | $157.77 | $157.99 | $2,053.87 | 65 |
 | ORCL | 9 | $219.56 | $218.63 | $1,967.67 | 65 |
 | PEP | 17 | $131.85 | $132.04 | $2,244.68 | 75 |
 | PFE | 93 | $24.27 | $24.24 | $2,254.32 | 75 |
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-01 07:22:00 | SELL | NVDA | 1 | $157.99 | $0.21 | 65 |
+| 2025-07-01 07:22:00 | BUY | MRK | 3 | $79.16 | N/A | 75 |
 | 2025-07-01 07:10:30 | SELL | MRK | 3 | $79.16 | $0.64 | 65 |
 | 2025-07-01 07:10:30 | SELL | VZ | 6 | $43.27 | $3.26 | 65 |
 | 2025-07-01 07:10:30 | BUY | NVDA | 1 | $157.99 | N/A | 75 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-01 06:17:43 | BUY | INTC | 12 | $22.40 | N/A | 75 |
 | 2025-07-01 06:17:43 | BUY | T | 1 | $28.94 | N/A | 85 |
 | 2025-07-01 06:05:04 | SELL | NVDA | 1 | $157.99 | $0.21 | 65 |
-| 2025-07-01 06:05:04 | SELL | UNH | 1 | $311.97 | $5.34 | 65 |
-| 2025-07-01 06:05:04 | BUY | BAC | 12 | $47.32 | N/A | 85 |
 
 <!--TRADE_LOG_END--> 
