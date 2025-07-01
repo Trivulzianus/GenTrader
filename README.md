@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-01 20:55:38**
+**Last Updated: 2025-07-01 21:04:04**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$101,079.66** |
-| Cash | $170.80 |
-| Holdings Value | $100,908.86 |
+| Cash | $689.53 |
+| Holdings Value | $100,390.13 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -24,7 +24,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | AXP | 6 | $315.94 | $322.53 | $1,935.18 | 65 |
 | BA | 9 | $215.30 | $209.79 | $1,888.11 | 65 |
 | BAC | 50 | $47.28 | $48.15 | $2,407.50 | 85 |
-| C | 25 | $84.32 | $86.27 | $2,156.75 | 75 |
+| C | 22 | $84.05 | $86.27 | $1,897.94 | 65 |
 | CAT | 5 | $381.20 | $390.92 | $1,954.60 | 65 |
 | COST | 2 | $991.47 | $985.96 | $1,971.92 | 65 |
 | CRM | 7 | $275.36 | $271.91 | $1,903.37 | 75 |
@@ -38,7 +38,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | JNJ | 12 | $151.64 | $155.92 | $1,871.04 | 65 |
 | JPM | 7 | $285.02 | $290.41 | $2,032.87 | 65 |
 | KO | 26 | $70.43 | $71.67 | $1,863.42 | 65 |
-| LLY | 3 | $767.33 | $775.90 | $2,327.70 | 65 |
+| LLY | 3 | $767.33 | $775.90 | $2,327.70 | 75 |
 | MA | 4 | $537.87 | $564.61 | $2,258.44 | 65 |
 | META | 3 | $712.71 | $719.22 | $2,157.66 | 85 |
 | MRK | 30 | $79.35 | $81.81 | $2,454.30 | 85 |
@@ -52,9 +52,9 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | PG | 12 | $159.73 | $161.22 | $1,934.64 | 65 |
 | PYPL | 32 | $73.86 | $75.29 | $2,409.28 | 85 |
 | QCOM | 15 | $159.12 | $159.40 | $2,391.00 | 85 |
-| T | 84 | $28.52 | $28.88 | $2,425.92 | 85 |
+| T | 75 | $28.48 | $28.88 | $2,166.00 | 75 |
 | TGT | 23 | $98.93 | $103.85 | $2,388.55 | 85 |
-| TSLA | 7 | $287.46 | $300.71 | $2,104.97 | 75 |
+| TSLA | 7 | $287.46 | $300.71 | $2,104.97 | 65 |
 | UNH | 8 | $306.63 | $326.14 | $2,609.12 | 85 |
 | UNP | 11 | $232.22 | $235.57 | $2,591.27 | 85 |
 | V | 6 | $344.95 | $355.47 | $2,132.82 | 65 |
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-01 21:03:48 | SELL | C | 3 | $86.27 | $5.85 | 65 |
+| 2025-07-01 21:03:48 | SELL | T | 9 | $28.88 | $3.21 | 75 |
 | 2025-07-01 20:55:20 | SELL | NKE | 3 | $73.41 | $7.27 | 75 |
 | 2025-07-01 20:55:20 | BUY | AMD | 1 | $136.11 | N/A | 85 |
 | 2025-07-01 20:48:31 | SELL | AMD | 1 | $136.11 | $-2.68 | 75 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-01 20:17:01 | BUY | C | 2 | $86.27 | N/A | 75 |
 | 2025-07-01 20:04:01 | SELL | AMD | 3 | $136.11 | $-8.04 | 65 |
 | 2025-07-01 20:04:01 | SELL | C | 2 | $86.27 | $4.06 | 65 |
-| 2025-07-01 20:04:01 | BUY | CSCO | 4 | $69.10 | N/A | 75 |
-| 2025-07-01 20:04:01 | BUY | CVX | 1 | $145.59 | N/A | 85 |
 
 <!--TRADE_LOG_END--> 
