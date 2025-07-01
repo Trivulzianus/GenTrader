@@ -5,20 +5,20 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-01 21:28:36**
+**Last Updated: 2025-07-01 21:37:18**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$101,079.66** |
-| Cash | $391.43 |
-| Holdings Value | $100,688.23 |
+| Cash | $36.84 |
+| Holdings Value | $101,042.82 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
 |---|---|---|---|---|---|
 | AAPL | 12 | $201.29 | $207.82 | $2,493.84 | 85 |
 | ADBE | 5 | $385.76 | $392.10 | $1,960.50 | 75 |
-| AMD | 16 | $138.96 | $136.11 | $2,177.76 | 75 |
+| AMD | 17 | $138.79 | $136.11 | $2,313.87 | 85 |
 | AMZN | 11 | $227.14 | $220.46 | $2,425.06 | 85 |
 | AVGO | 9 | $272.95 | $264.74 | $2,382.66 | 85 |
 | AXP | 6 | $315.94 | $322.53 | $1,935.18 | 65 |
@@ -38,7 +38,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | JNJ | 12 | $151.64 | $155.92 | $1,871.04 | 65 |
 | JPM | 7 | $285.02 | $290.41 | $2,032.87 | 65 |
 | KO | 26 | $70.43 | $71.67 | $1,863.42 | 65 |
-| LLY | 3 | $767.33 | $775.90 | $2,327.70 | 65 |
+| LLY | 3 | $767.33 | $775.90 | $2,327.70 | 75 |
 | MA | 4 | $537.87 | $564.61 | $2,258.44 | 65 |
 | META | 3 | $712.71 | $719.22 | $2,157.66 | 85 |
 | MRK | 30 | $79.35 | $81.81 | $2,454.30 | 85 |
@@ -57,11 +57,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | TSLA | 7 | $287.46 | $300.71 | $2,104.97 | 65 |
 | UNH | 8 | $306.63 | $326.14 | $2,609.12 | 85 |
 | UNP | 11 | $232.22 | $235.57 | $2,591.27 | 85 |
-| V | 6 | $344.95 | $355.47 | $2,132.82 | 85 |
+| V | 6 | $344.95 | $355.47 | $2,132.82 | 65 |
 | VZ | 49 | $42.72 | $43.68 | $2,140.32 | 75 |
 | WFC | 30 | $79.85 | $81.49 | $2,444.70 | 85 |
 | WMT | 25 | $97.07 | $98.24 | $2,456.00 | 85 |
-| XOM | 20 | $109.38 | $109.24 | $2,184.80 | 75 |
+| XOM | 22 | $109.37 | $109.24 | $2,403.28 | 85 |
 
 <!--PORTFOLIO_STATUS_END-->
 
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-01 21:37:12 | BUY | AMD | 1 | $136.11 | N/A | 85 |
+| 2025-07-01 21:37:12 | BUY | XOM | 2 | $109.24 | N/A | 85 |
 | 2025-07-01 21:28:26 | SELL | AMD | 1 | $136.11 | $-2.68 | 75 |
 | 2025-07-01 21:28:26 | SELL | INTC | 5 | $22.85 | $2.93 | 65 |
 | 2025-07-01 21:28:26 | BUY | NKE | 3 | $73.41 | N/A | 85 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-01 20:30:35 | SELL | XOM | 2 | $109.24 | $-0.26 | 75 |
 | 2025-07-01 20:30:35 | SELL | CRM | 1 | $271.91 | $-3.02 | 65 |
 | 2025-07-01 20:30:35 | SELL | TGT | 2 | $103.85 | $9.84 | 75 |
-| 2025-07-01 20:30:35 | BUY | KO | 4 | $71.67 | N/A | 75 |
-| 2025-07-01 20:30:35 | BUY | NKE | 3 | $73.41 | N/A | 75 |
 
 <!--TRADE_LOG_END--> 
