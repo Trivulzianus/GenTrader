@@ -5,20 +5,20 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-01 21:37:18**
+**Last Updated: 2025-07-01 21:45:39**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$101,079.66** |
-| Cash | $36.84 |
-| Holdings Value | $101,042.82 |
+| Cash | $686.82 |
+| Holdings Value | $100,392.84 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
 |---|---|---|---|---|---|
 | AAPL | 12 | $201.29 | $207.82 | $2,493.84 | 85 |
 | ADBE | 5 | $385.76 | $392.10 | $1,960.50 | 75 |
-| AMD | 17 | $138.79 | $136.11 | $2,313.87 | 85 |
+| AMD | 16 | $138.96 | $136.11 | $2,177.76 | 75 |
 | AMZN | 11 | $227.14 | $220.46 | $2,425.06 | 85 |
 | AVGO | 9 | $272.95 | $264.74 | $2,382.66 | 85 |
 | AXP | 6 | $315.94 | $322.53 | $1,935.18 | 65 |
@@ -40,11 +40,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | KO | 26 | $70.43 | $71.67 | $1,863.42 | 65 |
 | LLY | 3 | $767.33 | $775.90 | $2,327.70 | 75 |
 | MA | 4 | $537.87 | $564.61 | $2,258.44 | 65 |
-| META | 3 | $712.71 | $719.22 | $2,157.66 | 85 |
+| META | 3 | $712.71 | $719.22 | $2,157.66 | 90 |
 | MRK | 30 | $79.35 | $81.81 | $2,454.30 | 85 |
 | MSFT | 4 | $492.89 | $492.05 | $1,968.20 | 85 |
 | NFLX | 1 | $1,334.07 | $1,293.60 | $1,293.60 | 85 |
-| NKE | 33 | $70.99 | $73.41 | $2,422.53 | 85 |
+| NKE | 26 | $70.33 | $73.41 | $1,908.66 | 65 |
 | NVDA | 16 | $153.32 | $153.30 | $2,452.80 | 85 |
 | ORCL | 9 | $219.56 | $218.96 | $1,970.64 | 65 |
 | PEP | 16 | $131.60 | $135.26 | $2,164.16 | 75 |
@@ -54,7 +54,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | QCOM | 15 | $159.12 | $159.40 | $2,391.00 | 85 |
 | T | 84 | $28.52 | $28.88 | $2,425.92 | 85 |
 | TGT | 23 | $98.93 | $103.85 | $2,388.55 | 85 |
-| TSLA | 7 | $287.46 | $300.71 | $2,104.97 | 65 |
+| TSLA | 7 | $287.46 | $300.71 | $2,104.97 | 75 |
 | UNH | 8 | $306.63 | $326.14 | $2,609.12 | 85 |
 | UNP | 11 | $232.22 | $235.57 | $2,591.27 | 85 |
 | V | 6 | $344.95 | $355.47 | $2,132.82 | 65 |
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-01 21:45:33 | SELL | AMD | 1 | $136.11 | $-2.68 | 75 |
+| 2025-07-01 21:45:33 | SELL | NKE | 7 | $73.41 | $16.97 | 65 |
 | 2025-07-01 21:37:12 | BUY | AMD | 1 | $136.11 | N/A | 85 |
 | 2025-07-01 21:37:12 | BUY | XOM | 2 | $109.24 | N/A | 85 |
 | 2025-07-01 21:28:26 | SELL | AMD | 1 | $136.11 | $-2.68 | 75 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-01 20:40:29 | BUY | DIS | 4 | $123.49 | N/A | 85 |
 | 2025-07-01 20:40:29 | BUY | TGT | 2 | $103.85 | N/A | 85 |
 | 2025-07-01 20:30:35 | SELL | XOM | 2 | $109.24 | $-0.26 | 75 |
-| 2025-07-01 20:30:35 | SELL | CRM | 1 | $271.91 | $-3.02 | 65 |
-| 2025-07-01 20:30:35 | SELL | TGT | 2 | $103.85 | $9.84 | 75 |
 
 <!--TRADE_LOG_END--> 
