@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-01 00:13:33**
+**Last Updated: 2025-07-01 00:47:13**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,340.42** |
-| Cash | $1,011.00 |
-| Holdings Value | $99,329.42 |
+| Cash | $670.52 |
+| Holdings Value | $99,669.90 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -21,10 +21,10 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | AMD | 14 | $142.83 | $141.90 | $1,986.60 | 65 |
 | AMZN | 9 | $228.48 | $219.39 | $1,974.51 | 65 |
 | AVGO | 7 | $276.11 | $275.65 | $1,929.55 | 65 |
-| AXP | 7 | $316.33 | $318.98 | $2,232.86 | 75 |
+| AXP | 7 | $316.33 | $318.98 | $2,232.86 | 65 |
 | BA | 10 | $214.55 | $209.53 | $2,095.30 | 65 |
 | BAC | 42 | $47.20 | $47.32 | $1,987.44 | 65 |
-| C | 26 | $84.27 | $85.12 | $2,213.12 | 70 |
+| C | 30 | $84.39 | $85.12 | $2,553.60 | 85 |
 | CAT | 5 | $381.20 | $388.21 | $1,941.05 | 65 |
 | COST | 2 | $991.47 | $989.94 | $1,979.88 | 65 |
 | CRM | 9 | $274.67 | $272.69 | $2,454.21 | 75 |
@@ -40,12 +40,12 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | KO | 28 | $70.48 | $70.75 | $1,981.00 | 65 |
 | LLY | 3 | $767.33 | $779.53 | $2,338.59 | 65 |
 | MA | 4 | $537.87 | $561.94 | $2,247.76 | 65 |
-| META | 3 | $712.71 | $738.09 | $2,214.27 | 88 |
+| META | 3 | $712.71 | $738.09 | $2,214.27 | 90 |
 | MRK | 25 | $78.92 | $79.16 | $1,979.00 | 65 |
 | MSFT | 4 | $492.89 | $497.41 | $1,989.64 | 65 |
 | NFLX | 1 | $1,334.07 | $1,339.13 | $1,339.13 | 65 |
 | NKE | 36 | $71.18 | $71.04 | $2,557.44 | 85 |
-| NVDA | 13 | $157.77 | $157.99 | $2,053.87 | 70 |
+| NVDA | 13 | $157.77 | $157.99 | $2,053.87 | 65 |
 | ORCL | 9 | $219.56 | $218.63 | $1,967.67 | 65 |
 | PEP | 17 | $131.85 | $132.04 | $2,244.68 | 75 |
 | PFE | 94 | $24.27 | $24.24 | $2,278.56 | 75 |
@@ -87,6 +87,7 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-01 00:47:03 | BUY | C | 4 | $85.12 | N/A | 85 |
 | 2025-07-01 00:13:27 | SELL | V | 1 | $355.05 | $8.66 | 65 |
 | 2025-07-01 00:13:27 | SELL | C | 4 | $85.12 | $2.94 | 70 |
 | 2025-07-01 00:13:27 | BUY | INTC | 1 | $22.40 | N/A | 65 |
@@ -111,6 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-06-30 23:03:58 | SELL | NVDA | 1 | $157.99 | $0.21 | 65 |
 | 2025-06-30 22:55:05 | BUY | NVDA | 1 | $157.99 | N/A | 75 |
 | 2025-06-30 22:48:54 | SELL | CSCO | 3 | $69.38 | $1.21 | 65 |
-| 2025-06-30 22:48:54 | BUY | VZ | 6 | $43.27 | N/A | 75 |
 
 <!--TRADE_LOG_END--> 
