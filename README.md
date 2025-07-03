@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-03 09:51:52**
+**Last Updated: 2025-07-03 10:09:33**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$101,223.79** |
-| Cash | $2,569.72 |
-| Holdings Value | $98,654.07 |
+| Cash | $2,436.99 |
+| Holdings Value | $98,786.80 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -29,11 +29,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | COST | 2 | $979.83 | $982.36 | $1,964.72 | 65 |
 | CRM | 7 | $267.51 | $269.21 | $1,884.47 | 65 |
 | CSCO | 34 | $68.37 | $68.59 | $2,332.06 | 75 |
-| CVX | 16 | $146.54 | $147.98 | $2,367.68 | 75 |
+| CVX | 17 | $146.62 | $147.98 | $2,515.66 | 85 |
 | DIS | 17 | $122.83 | $122.98 | $2,090.66 | 70 |
 | GOOGL | 13 | $177.82 | $178.64 | $2,322.32 | 75 |
-| GS | 3 | $717.52 | $715.89 | $2,147.67 | 85 |
-| HD | 6 | $372.64 | $371.85 | $2,231.10 | 70 |
+| GS | 3 | $717.52 | $715.89 | $2,147.67 | 75 |
+| HD | 6 | $372.64 | $371.85 | $2,231.10 | 65 |
 | INTC | 90 | $22.33 | $21.88 | $1,969.20 | 65 |
 | JNJ | 13 | $155.80 | $155.56 | $2,022.28 | 65 |
 | JPM | 9 | $292.50 | $292.00 | $2,628.00 | 85 |
@@ -54,13 +54,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | QCOM | 15 | $161.52 | $162.32 | $2,434.80 | 85 |
 | T | 70 | $28.54 | $28.31 | $1,981.70 | 65 |
 | TGT | 20 | $105.06 | $105.45 | $2,109.00 | 70 |
-| TSLA | 6 | $313.02 | $315.65 | $1,893.90 | 60 |
+| TSLA | 6 | $313.02 | $315.65 | $1,893.90 | 65 |
 | UNH | 7 | $314.75 | $307.56 | $2,152.92 | 65 |
-| UNP | 9 | $236.50 | $237.16 | $2,134.44 | 75 |
+| UNP | 9 | $236.50 | $237.16 | $2,134.44 | 65 |
 | V | 5 | $352.10 | $354.22 | $1,771.10 | 65 |
 | VZ | 46 | $43.75 | $43.59 | $2,005.14 | 65 |
-| WFC | 30 | $82.28 | $82.36 | $2,470.80 | 80 |
-| WMT | 23 | $97.34 | $97.61 | $2,245.03 | 75 |
+| WFC | 31 | $82.28 | $82.36 | $2,553.16 | 85 |
+| WMT | 22 | $97.33 | $97.61 | $2,147.42 | 70 |
 | XOM | 21 | $109.93 | $111.05 | $2,332.05 | 75 |
 
 <!--PORTFOLIO_STATUS_END-->
@@ -87,6 +87,9 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-03 10:09:28 | SELL | WMT | 1 | $97.61 | $0.27 | 70 |
+| 2025-07-03 10:09:28 | BUY | WFC | 1 | $82.36 | N/A | 85 |
+| 2025-07-03 10:09:28 | BUY | CVX | 1 | $147.98 | N/A | 85 |
 | 2025-07-03 09:51:48 | SELL | T | 1 | $28.31 | $-0.22 | 65 |
 | 2025-07-03 09:51:48 | SELL | CVX | 1 | $147.98 | $1.36 | 75 |
 | 2025-07-03 09:51:48 | BUY | INTC | 6 | $21.88 | N/A | 65 |
@@ -109,8 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-03 09:09:35 | SELL | CVX | 1 | $147.98 | $1.36 | 75 |
 | 2025-07-03 09:09:35 | BUY | JPM | 1 | $292.00 | N/A | 85 |
 | 2025-07-03 08:55:20 | SELL | INTC | 6 | $21.88 | $-2.68 | 60 |
-| 2025-07-03 08:55:20 | SELL | VZ | 3 | $43.59 | $-0.41 | 70 |
-| 2025-07-03 08:55:20 | SELL | T | 4 | $28.31 | $-0.84 | 65 |
-| 2025-07-03 08:55:20 | BUY | WMT | 1 | $97.61 | N/A | 70 |
 
 <!--TRADE_LOG_END--> 
