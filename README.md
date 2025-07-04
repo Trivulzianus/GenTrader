@@ -5,7 +5,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-04 22:39:39**
+**Last Updated: 2025-07-04 22:51:01**
 
 | Metric | Value |
 |---|---|
@@ -38,8 +38,8 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | JNJ | 13 | $155.80 | $156.01 | $2,028.13 | 65 |
 | JPM | 9 | $292.50 | $296.00 | $2,664.00 | 85 |
 | KO | 28 | $71.03 | $71.35 | $1,997.80 | 65 |
-| LLY | 2 | $776.66 | $780.67 | $1,561.34 | 65 |
-| MA | 4 | $563.08 | $569.24 | $2,276.96 | 70 |
+| LLY | 2 | $776.66 | $780.67 | $1,561.34 | 70 |
+| MA | 4 | $563.08 | $569.24 | $2,276.96 | 65 |
 | META | 3 | $717.12 | $719.01 | $2,157.03 | 85 |
 | MRK | 25 | $82.57 | $80.93 | $2,023.25 | 65 |
 | MSFT | 5 | $498.84 | $498.84 | $2,494.20 | 85 |
