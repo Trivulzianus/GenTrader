@@ -5,18 +5,18 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-05 06:43:16**
+**Last Updated: 2025-07-05 06:54:18**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$101,869.82** |
-| Cash | $1,687.21 |
-| Holdings Value | $100,182.61 |
+| Cash | $1,560.31 |
+| Holdings Value | $100,309.51 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
 |---|---|---|---|---|---|
-| AAPL | 10 | $211.35 | $213.55 | $2,135.50 | 65 |
+| AAPL | 10 | $211.35 | $213.55 | $2,135.50 | 70 |
 | ADBE | 5 | $377.60 | $379.31 | $1,896.55 | 65 |
 | AMD | 15 | $135.93 | $137.91 | $2,068.65 | 65 |
 | AMZN | 11 | $221.66 | $223.41 | $2,457.51 | 75 |
@@ -48,13 +48,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | NVDA | 16 | $156.39 | $159.34 | $2,549.44 | 85 |
 | ORCL | 11 | $227.11 | $237.32 | $2,610.52 | 85 |
 | PEP | 15 | $136.59 | $135.38 | $2,030.70 | 65 |
-| PFE | 79 | $25.31 | $25.38 | $2,005.02 | 65 |
+| PFE | 84 | $25.31 | $25.38 | $2,131.92 | 70 |
 | PG | 12 | $160.76 | $160.83 | $1,929.96 | 65 |
 | PYPL | 30 | $76.81 | $76.59 | $2,297.70 | 75 |
-| QCOM | 14 | $161.47 | $162.21 | $2,270.94 | 70 |
+| QCOM | 14 | $161.47 | $162.21 | $2,270.94 | 75 |
 | T | 76 | $28.52 | $28.36 | $2,155.36 | 70 |
 | TGT | 19 | $105.09 | $104.06 | $1,977.14 | 65 |
-| TSLA | 6 | $313.02 | $315.35 | $1,892.10 | 55 |
+| TSLA | 6 | $313.02 | $315.35 | $1,892.10 | 60 |
 | UNH | 7 | $314.75 | $308.55 | $2,159.85 | 65 |
 | UNP | 10 | $236.48 | $236.28 | $2,362.80 | 75 |
 | V | 6 | $352.90 | $358.86 | $2,153.16 | 70 |
@@ -87,6 +87,7 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-05 06:54:13 | BUY | PFE | 5 | $25.38 | N/A | 70 |
 | 2025-07-05 06:43:11 | SELL | INTC | 5 | $22.49 | $0.97 | 60 |
 | 2025-07-05 06:43:11 | SELL | CSCO | 1 | $69.37 | $1.01 | 70 |
 | 2025-07-05 06:43:11 | BUY | WMT | 1 | $98.36 | N/A | 70 |
@@ -111,6 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-05 05:38:53 | BUY | QCOM | 1 | $162.21 | N/A | 85 |
 | 2025-07-05 05:25:43 | SELL | PFE | 6 | $25.38 | $0.40 | 65 |
 | 2025-07-05 05:25:43 | SELL | AXP | 1 | $328.13 | $3.73 | 70 |
-| 2025-07-05 05:25:43 | BUY | TSLA | 1 | $315.35 | N/A | 75 |
 
 <!--TRADE_LOG_END--> 
