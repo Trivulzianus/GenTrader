@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-05 01:58:27**
+**Last Updated: 2025-07-05 02:39:25**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$101,869.82** |
-| Cash | $1,771.03 |
-| Holdings Value | $100,098.79 |
+| Cash | $1,456.54 |
+| Holdings Value | $100,413.28 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -21,11 +21,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | AMD | 15 | $135.93 | $137.91 | $2,068.65 | 70 |
 | AMZN | 11 | $221.66 | $223.41 | $2,457.51 | 75 |
 | AVGO | 8 | $269.90 | $275.18 | $2,201.44 | 70 |
-| AXP | 8 | $324.40 | $328.13 | $2,625.04 | 80 |
+| AXP | 8 | $324.40 | $328.13 | $2,625.04 | 75 |
 | BA | 10 | $212.15 | $215.92 | $2,159.20 | 70 |
 | BAC | 44 | $48.65 | $48.93 | $2,152.92 | 70 |
 | C | 30 | $86.80 | $88.72 | $2,661.60 | 85 |
-| CAT | 5 | $395.95 | $397.86 | $1,989.30 | 75 |
+| CAT | 5 | $395.95 | $397.86 | $1,989.30 | 65 |
 | COST | 2 | $979.83 | $987.02 | $1,974.04 | 65 |
 | CRM | 8 | $268.33 | $272.15 | $2,177.20 | 65 |
 | CSCO | 32 | $68.33 | $69.37 | $2,219.84 | 70 |
@@ -38,7 +38,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | JNJ | 13 | $155.80 | $156.01 | $2,028.13 | 65 |
 | JPM | 9 | $292.50 | $296.00 | $2,664.00 | 85 |
 | KO | 30 | $71.05 | $71.35 | $2,140.50 | 70 |
-| LLY | 2 | $776.66 | $780.67 | $1,561.34 | 70 |
+| LLY | 2 | $776.66 | $780.67 | $1,561.34 | 65 |
 | MA | 4 | $563.08 | $569.24 | $2,276.96 | 70 |
 | META | 3 | $717.12 | $719.01 | $2,157.03 | 85 |
 | MRK | 24 | $82.64 | $80.93 | $1,942.32 | 65 |
@@ -48,10 +48,10 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | NVDA | 16 | $156.39 | $159.34 | $2,549.44 | 85 |
 | ORCL | 11 | $227.11 | $237.32 | $2,610.52 | 85 |
 | PEP | 15 | $136.59 | $135.38 | $2,030.70 | 65 |
-| PFE | 79 | $25.31 | $25.38 | $2,005.02 | 65 |
+| PFE | 85 | $25.31 | $25.38 | $2,157.30 | 70 |
 | PG | 12 | $160.76 | $160.83 | $1,929.96 | 65 |
 | PYPL | 30 | $76.81 | $76.59 | $2,297.70 | 75 |
-| QCOM | 15 | $161.52 | $162.21 | $2,433.15 | 80 |
+| QCOM | 16 | $161.56 | $162.21 | $2,595.36 | 85 |
 | T | 71 | $28.53 | $28.36 | $2,013.56 | 65 |
 | TGT | 19 | $105.09 | $104.06 | $1,977.14 | 65 |
 | TSLA | 6 | $313.02 | $315.35 | $1,892.10 | 65 |
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-05 02:39:20 | BUY | PFE | 6 | $25.38 | N/A | 70 |
+| 2025-07-05 02:39:20 | BUY | QCOM | 1 | $162.21 | N/A | 85 |
 | 2025-07-05 01:58:21 | SELL | CVX | 1 | $148.37 | $1.74 | 75 |
 | 2025-07-05 01:58:21 | BUY | INTC | 6 | $22.49 | N/A | 60 |
 | 2025-07-05 01:58:21 | BUY | QCOM | 1 | $162.21 | N/A | 80 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-04 23:08:00 | SELL | MRK | 1 | $80.93 | $-1.64 | 60 |
 | 2025-07-04 23:08:00 | SELL | CSCO | 2 | $69.37 | $2.08 | 65 |
 | 2025-07-04 22:39:29 | SELL | CSCO | 1 | $69.37 | $1.01 | 70 |
-| 2025-07-04 22:25:47 | SELL | PFE | 5 | $25.38 | $0.34 | 65 |
-| 2025-07-04 22:25:47 | SELL | CVX | 1 | $148.37 | $1.74 | 75 |
 
 <!--TRADE_LOG_END--> 
