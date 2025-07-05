@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-05 15:07:34**
+**Last Updated: 2025-07-05 15:25:42**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$101,869.82** |
-| Cash | $1,522.75 |
-| Holdings Value | $100,347.07 |
+| Cash | $1,543.16 |
+| Holdings Value | $100,326.66 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -22,7 +22,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | AMZN | 11 | $221.66 | $223.41 | $2,457.51 | 75 |
 | AVGO | 8 | $269.90 | $275.18 | $2,201.44 | 70 |
 | AXP | 7 | $323.87 | $328.13 | $2,296.91 | 75 |
-| BA | 10 | $212.15 | $215.92 | $2,159.20 | 75 |
+| BA | 10 | $212.15 | $215.92 | $2,159.20 | 70 |
 | BAC | 53 | $48.70 | $48.93 | $2,593.29 | 85 |
 | C | 30 | $86.80 | $88.72 | $2,661.60 | 85 |
 | CAT | 5 | $395.95 | $397.86 | $1,989.30 | 75 |
@@ -43,7 +43,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | META | 3 | $717.12 | $719.01 | $2,157.03 | 85 |
 | MRK | 24 | $82.64 | $80.93 | $1,942.32 | 65 |
 | MSFT | 5 | $498.84 | $498.84 | $2,494.20 | 85 |
-| NFLX | 1 | $1,279.00 | $1,297.18 | $1,297.18 | 65 |
+| NFLX | 1 | $1,279.00 | $1,297.18 | $1,297.18 | 70 |
 | NKE | 29 | $75.79 | $76.39 | $2,215.31 | 70 |
 | NVDA | 16 | $156.39 | $159.34 | $2,549.44 | 85 |
 | ORCL | 11 | $227.11 | $237.32 | $2,610.52 | 85 |
@@ -51,8 +51,8 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | PFE | 79 | $25.31 | $25.38 | $2,005.02 | 65 |
 | PG | 12 | $160.76 | $160.83 | $1,929.96 | 65 |
 | PYPL | 30 | $76.81 | $76.59 | $2,297.70 | 75 |
-| QCOM | 15 | $161.52 | $162.21 | $2,433.15 | 80 |
-| T | 76 | $28.52 | $28.36 | $2,155.36 | 70 |
+| QCOM | 14 | $161.47 | $162.21 | $2,270.94 | 70 |
+| T | 81 | $28.51 | $28.36 | $2,297.16 | 75 |
 | TGT | 19 | $105.09 | $104.06 | $1,977.14 | 65 |
 | TSLA | 6 | $313.02 | $315.35 | $1,892.10 | 55 |
 | UNH | 7 | $314.75 | $308.55 | $2,159.85 | 65 |
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-05 15:25:37 | SELL | QCOM | 1 | $162.21 | $0.69 | 70 |
+| 2025-07-05 15:25:37 | BUY | T | 5 | $28.36 | N/A | 75 |
 | 2025-07-05 15:07:27 | SELL | INTC | 7 | $22.49 | $1.35 | 60 |
 | 2025-07-05 15:07:27 | SELL | PFE | 1 | $25.38 | $0.07 | 65 |
 | 2025-07-05 15:07:27 | SELL | CSCO | 1 | $69.37 | $1.04 | 70 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-05 13:29:59 | SELL | INTC | 1 | $22.49 | $0.21 | 60 |
 | 2025-07-05 13:29:59 | SELL | KO | 1 | $71.35 | $0.31 | 65 |
 | 2025-07-05 13:29:59 | SELL | CSCO | 4 | $69.37 | $4.04 | 65 |
-| 2025-07-05 13:29:59 | SELL | VZ | 1 | $43.55 | $-0.18 | 65 |
-| 2025-07-05 13:29:59 | BUY | DIS | 3 | $124.00 | N/A | 85 |
 
 <!--TRADE_LOG_END--> 
