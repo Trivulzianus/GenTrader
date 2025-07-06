@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-06 06:27:20**
+**Last Updated: 2025-07-06 06:43:45**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$101,869.82** |
-| Cash | $2,299.18 |
-| Holdings Value | $99,570.64 |
+| Cash | $2,150.81 |
+| Holdings Value | $99,719.01 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -20,16 +20,16 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | ADBE | 5 | $377.60 | $379.31 | $1,896.55 | 65 |
 | AMD | 15 | $135.93 | $137.91 | $2,068.65 | 65 |
 | AMZN | 11 | $221.66 | $223.41 | $2,457.51 | 85 |
-| AVGO | 8 | $269.90 | $275.18 | $2,201.44 | 70 |
+| AVGO | 8 | $269.90 | $275.18 | $2,201.44 | 65 |
 | AXP | 7 | $323.87 | $328.13 | $2,296.91 | 75 |
 | BA | 10 | $212.15 | $215.92 | $2,159.20 | 70 |
 | BAC | 53 | $48.70 | $48.93 | $2,593.29 | 85 |
 | C | 29 | $86.74 | $88.72 | $2,572.88 | 85 |
-| CAT | 5 | $397.86 | $397.86 | $1,989.30 | 70 |
+| CAT | 5 | $397.86 | $397.86 | $1,989.30 | 75 |
 | COST | 2 | $979.83 | $987.02 | $1,974.04 | 65 |
 | CRM | 8 | $268.33 | $272.15 | $2,177.20 | 65 |
 | CSCO | 31 | $68.29 | $69.37 | $2,150.47 | 70 |
-| CVX | 16 | $146.52 | $148.37 | $2,373.92 | 75 |
+| CVX | 17 | $146.63 | $148.37 | $2,522.29 | 85 |
 | DIS | 21 | $123.05 | $124.00 | $2,604.00 | 85 |
 | GOOGL | 12 | $179.53 | $179.53 | $2,154.36 | 75 |
 | GS | 3 | $717.52 | $723.68 | $2,171.04 | 75 |
@@ -87,6 +87,7 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-06 06:43:40 | BUY | CVX | 1 | $148.37 | N/A | 85 |
 | 2025-07-06 06:10:33 | SELL | CVX | 1 | $148.37 | $1.74 | 75 |
 | 2025-07-06 06:10:33 | BUY | INTC | 1 | $22.49 | N/A | 60 |
 | 2025-07-06 06:10:33 | BUY | ORCL | 1 | $237.32 | N/A | 85 |
@@ -111,6 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-06 03:35:29 | SELL | WMT | 1 | $98.36 | $0.98 | 70 |
 | 2025-07-06 03:35:29 | BUY | BAC | 6 | $48.93 | N/A | 85 |
 | 2025-07-06 03:35:29 | BUY | PFE | 6 | $25.38 | N/A | 70 |
-| 2025-07-06 03:35:29 | BUY | T | 4 | $28.36 | N/A | 70 |
 
 <!--TRADE_LOG_END--> 
