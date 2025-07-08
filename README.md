@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-08 04:56:47**
+**Last Updated: 2025-07-08 05:10:12**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,771.77** |
-| Cash | $1,271.20 |
-| Holdings Value | $99,500.57 |
+| Cash | $1,369.38 |
+| Holdings Value | $99,402.39 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -33,8 +33,8 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | DIS | 17 | $122.84 | $123.16 | $2,093.72 | 65 |
 | GOOGL | 12 | $179.60 | $176.79 | $2,121.48 | 70 |
 | GS | 3 | $717.52 | $710.93 | $2,132.79 | 85 |
-| HD | 6 | $372.64 | $367.64 | $2,205.84 | 65 |
-| INTC | 86 | $22.27 | $22.00 | $1,892.00 | 60 |
+| HD | 6 | $372.64 | $367.64 | $2,205.84 | 70 |
+| INTC | 85 | $22.27 | $22.00 | $1,870.00 | 60 |
 | JNJ | 13 | $155.80 | $155.27 | $2,018.51 | 65 |
 | JPM | 9 | $292.50 | $291.97 | $2,627.73 | 85 |
 | KO | 29 | $71.03 | $71.01 | $2,059.29 | 65 |
@@ -50,14 +50,14 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | PEP | 15 | $136.57 | $134.45 | $2,016.75 | 65 |
 | PFE | 86 | $25.29 | $25.24 | $2,170.64 | 70 |
 | PG | 13 | $160.77 | $160.50 | $2,086.50 | 65 |
-| PYPL | 28 | $76.83 | $76.18 | $2,133.04 | 70 |
+| PYPL | 27 | $76.85 | $76.18 | $2,056.86 | 65 |
 | QCOM | 15 | $161.50 | $158.09 | $2,371.35 | 75 |
 | T | 71 | $28.54 | $28.41 | $2,017.11 | 65 |
 | TGT | 20 | $104.90 | $101.60 | $2,032.00 | 65 |
 | TSLA | 7 | $289.38 | $293.94 | $2,057.58 | 65 |
 | UNH | 7 | $314.75 | $303.71 | $2,125.97 | 65 |
 | UNP | 10 | $236.53 | $235.35 | $2,353.50 | 75 |
-| V | 6 | $355.95 | $356.64 | $2,139.84 | 65 |
+| V | 6 | $355.95 | $356.64 | $2,139.84 | 70 |
 | VZ | 47 | $43.72 | $42.80 | $2,011.60 | 65 |
 | WFC | 29 | $82.35 | $82.34 | $2,387.86 | 75 |
 | WMT | 23 | $97.38 | $99.35 | $2,285.05 | 75 |
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-08 05:10:07 | SELL | INTC | 1 | $22.00 | $-0.27 | 60 |
+| 2025-07-08 05:10:07 | SELL | PYPL | 1 | $76.18 | $-0.65 | 65 |
 | 2025-07-08 04:56:38 | SELL | INTC | 5 | $22.00 | $-1.28 | 60 |
 | 2025-07-08 04:56:38 | BUY | WMT | 1 | $99.35 | N/A | 75 |
 | 2025-07-08 04:56:38 | BUY | PYPL | 1 | $76.18 | N/A | 70 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-08 03:41:52 | SELL | CVX | 1 | $147.40 | $0.70 | 70 |
 | 2025-07-08 03:15:15 | SELL | INTC | 7 | $22.00 | $-1.76 | 60 |
 | 2025-07-08 03:15:15 | BUY | C | 4 | $87.60 | N/A | 85 |
-| 2025-07-08 02:42:11 | SELL | GOOGL | 1 | $176.79 | $-2.59 | 65 |
-| 2025-07-08 02:42:11 | SELL | C | 4 | $87.60 | $4.09 | 70 |
 
 <!--TRADE_LOG_END--> 
