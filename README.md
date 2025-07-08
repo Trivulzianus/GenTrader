@@ -5,21 +5,21 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-08 10:26:20**
+**Last Updated: 2025-07-08 10:41:16**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,771.77** |
-| Cash | $1,946.77 |
-| Holdings Value | $98,825.00 |
+| Cash | $1,814.77 |
+| Holdings Value | $98,957.00 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
 |---|---|---|---|---|---|
 | AAPL | 10 | $211.08 | $209.95 | $2,099.50 | 65 |
 | ADBE | 5 | $377.60 | $376.93 | $1,884.65 | 65 |
-| AMD | 16 | $135.68 | $134.80 | $2,156.80 | 65 |
-| AMZN | 11 | $221.72 | $223.47 | $2,458.17 | 75 |
+| AMD | 16 | $135.68 | $134.80 | $2,156.80 | 70 |
+| AMZN | 11 | $221.72 | $223.47 | $2,458.17 | 85 |
 | AVGO | 8 | $275.34 | $274.18 | $2,193.44 | 70 |
 | AXP | 8 | $324.24 | $322.73 | $2,581.84 | 85 |
 | BA | 10 | $212.15 | $218.63 | $2,186.30 | 70 |
@@ -29,12 +29,12 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | COST | 2 | $979.83 | $992.18 | $1,984.36 | 65 |
 | CRM | 8 | $268.33 | $269.80 | $2,158.40 | 65 |
 | CSCO | 34 | $68.39 | $68.93 | $2,343.62 | 75 |
-| CVX | 15 | $146.66 | $147.40 | $2,211.00 | 70 |
+| CVX | 15 | $146.66 | $147.40 | $2,211.00 | 75 |
 | DIS | 17 | $122.84 | $123.16 | $2,093.72 | 70 |
 | GOOGL | 12 | $179.60 | $176.79 | $2,121.48 | 70 |
 | GS | 3 | $717.52 | $710.93 | $2,132.79 | 85 |
-| HD | 6 | $372.64 | $367.64 | $2,205.84 | 65 |
-| INTC | 85 | $22.27 | $22.00 | $1,870.00 | 60 |
+| HD | 6 | $372.64 | $367.64 | $2,205.84 | 70 |
+| INTC | 91 | $22.26 | $22.00 | $2,002.00 | 65 |
 | JNJ | 13 | $155.80 | $155.27 | $2,018.51 | 65 |
 | JPM | 8 | $292.56 | $291.97 | $2,335.76 | 70 |
 | KO | 29 | $71.03 | $71.01 | $2,059.29 | 65 |
@@ -43,7 +43,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | META | 3 | $717.12 | $718.35 | $2,155.05 | 75 |
 | MRK | 25 | $82.60 | $80.90 | $2,022.50 | 65 |
 | MSFT | 5 | $498.84 | $497.72 | $2,488.60 | 70 |
-| NFLX | 1 | $1,279.00 | $1,289.62 | $1,289.62 | 65 |
+| NFLX | 1 | $1,279.00 | $1,289.62 | $1,289.62 | 70 |
 | NKE | 29 | $75.84 | $76.53 | $2,219.37 | 70 |
 | NVDA | 13 | $156.08 | $158.24 | $2,057.12 | 70 |
 | ORCL | 9 | $233.41 | $232.26 | $2,090.34 | 70 |
@@ -87,6 +87,7 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-08 10:41:10 | BUY | INTC | 6 | $22.00 | N/A | 65 |
 | 2025-07-08 10:26:14 | SELL | PYPL | 1 | $76.18 | $-0.65 | 65 |
 | 2025-07-08 10:26:14 | BUY | PFE | 1 | $25.24 | N/A | 70 |
 | 2025-07-08 10:26:14 | BUY | AXP | 1 | $322.73 | N/A | 85 |
@@ -111,6 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-08 08:56:47 | BUY | PYPL | 1 | $76.18 | N/A | 70 |
 | 2025-07-08 08:56:47 | BUY | WFC | 1 | $82.34 | N/A | 80 |
 | 2025-07-08 08:56:47 | BUY | T | 6 | $28.41 | N/A | 70 |
-| 2025-07-08 08:44:20 | SELL | WFC | 1 | $82.34 | $-0.01 | 75 |
 
 <!--TRADE_LOG_END--> 
