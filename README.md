@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-09 07:26:13**
+**Last Updated: 2025-07-09 07:38:11**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,667.29** |
-| Cash | $295.04 |
-| Holdings Value | $100,372.25 |
+| Cash | $489.22 |
+| Holdings Value | $100,178.07 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -25,13 +25,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | BA | 10 | $212.43 | $218.52 | $2,185.20 | 70 |
 | BAC | 50 | $48.63 | $47.15 | $2,357.50 | 75 |
 | C | 30 | $86.59 | $85.57 | $2,567.10 | 85 |
-| CAT | 6 | $397.86 | $394.29 | $2,365.74 | 65 |
+| CAT | 6 | $397.86 | $394.29 | $2,365.74 | 70 |
 | COST | 2 | $979.83 | $985.84 | $1,971.68 | 65 |
 | CRM | 8 | $268.33 | $273.65 | $2,189.20 | 70 |
 | CSCO | 33 | $68.35 | $68.59 | $2,263.47 | 75 |
 | CVX | 17 | $147.04 | $153.24 | $2,605.08 | 85 |
 | DIS | 17 | $122.85 | $121.82 | $2,070.94 | 70 |
-| GOOGL | 12 | $179.60 | $174.36 | $2,092.32 | 65 |
+| GOOGL | 12 | $179.60 | $174.36 | $2,092.32 | 70 |
 | GS | 3 | $717.52 | $697.28 | $2,091.84 | 75 |
 | HD | 6 | $372.64 | $367.50 | $2,205.00 | 65 |
 | INTC | 85 | $22.31 | $23.59 | $2,005.15 | 65 |
@@ -55,13 +55,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | T | 77 | $28.54 | $28.29 | $2,178.33 | 70 |
 | TGT | 20 | $104.90 | $102.01 | $2,040.20 | 65 |
 | TSLA | 6 | $288.62 | $297.81 | $1,786.86 | 65 |
-| UNH | 7 | $314.75 | $307.70 | $2,153.90 | 65 |
+| UNH | 7 | $314.75 | $307.70 | $2,153.90 | 70 |
 | UNP | 10 | $236.66 | $236.54 | $2,365.40 | 75 |
 | V | 6 | $355.95 | $354.55 | $2,127.30 | 65 |
 | VZ | 47 | $43.16 | $43.06 | $2,023.82 | 65 |
 | WFC | 29 | $82.33 | $81.59 | $2,366.11 | 75 |
-| WMT | 23 | $97.33 | $97.09 | $2,233.07 | 75 |
-| XOM | 21 | $110.03 | $114.19 | $2,397.99 | 75 |
+| WMT | 21 | $97.35 | $97.09 | $2,038.89 | 65 |
+| XOM | 21 | $110.03 | $114.19 | $2,397.99 | 80 |
 
 <!--PORTFOLIO_STATUS_END-->
 
@@ -87,6 +87,7 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-09 07:38:06 | SELL | WMT | 2 | $97.09 | $-0.47 | 65 |
 | 2025-07-09 07:26:07 | BUY | NVDA | 1 | $160.00 | N/A | 85 |
 | 2025-07-09 07:26:07 | BUY | NKE | 3 | $73.92 | N/A | 75 |
 | 2025-07-09 07:09:48 | SELL | NVDA | 1 | $160.00 | $2.78 | 75 |
@@ -111,6 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-09 05:54:58 | BUY | XOM | 2 | $114.19 | N/A | 85 |
 | 2025-07-09 05:54:58 | BUY | CSCO | 1 | $68.59 | N/A | 75 |
 | 2025-07-09 05:54:58 | BUY | T | 5 | $28.29 | N/A | 75 |
-| 2025-07-09 05:45:03 | SELL | XOM | 1 | $114.19 | $3.97 | 75 |
 
 <!--TRADE_LOG_END--> 
