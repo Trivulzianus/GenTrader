@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-09 20:26:25**
+**Last Updated: 2025-07-09 20:39:31**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,978.85** |
-| Cash | $1,491.39 |
-| Holdings Value | $99,487.46 |
+| Cash | $1,549.08 |
+| Holdings Value | $99,429.77 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -21,10 +21,10 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | AMD | 15 | $135.39 | $138.41 | $2,076.15 | 65 |
 | AMZN | 11 | $221.90 | $222.54 | $2,447.94 | 75 |
 | AVGO | 8 | $275.34 | $277.90 | $2,223.20 | 70 |
-| AXP | 7 | $325.28 | $317.35 | $2,221.45 | 80 |
+| AXP | 7 | $325.28 | $317.35 | $2,221.45 | 75 |
 | BA | 9 | $210.97 | $226.60 | $2,039.40 | 65 |
 | BAC | 46 | $48.73 | $46.84 | $2,154.64 | 70 |
-| C | 31 | $86.66 | $85.79 | $2,659.49 | 85 |
+| C | 30 | $86.69 | $85.79 | $2,573.70 | 80 |
 | CAT | 6 | $397.86 | $402.18 | $2,413.08 | 75 |
 | COST | 2 | $979.83 | $982.09 | $1,964.18 | 65 |
 | CRM | 8 | $268.33 | $270.92 | $2,167.36 | 65 |
@@ -42,7 +42,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | MA | 4 | $563.08 | $565.11 | $2,260.44 | 65 |
 | META | 3 | $717.12 | $732.78 | $2,198.34 | 85 |
 | MRK | 28 | $82.45 | $83.71 | $2,343.88 | 75 |
-| MSFT | 5 | $498.84 | $503.51 | $2,517.55 | 75 |
+| MSFT | 5 | $498.84 | $503.51 | $2,517.55 | 70 |
 | NFLX | 1 | $1,279.00 | $1,288.28 | $1,288.28 | 65 |
 | NKE | 28 | $76.03 | $73.56 | $2,059.68 | 65 |
 | NVDA | 16 | $157.22 | $162.88 | $2,606.08 | 85 |
@@ -52,9 +52,9 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | PG | 13 | $160.75 | $157.52 | $2,047.76 | 65 |
 | PYPL | 31 | $76.62 | $74.83 | $2,319.73 | 75 |
 | QCOM | 14 | $161.87 | $159.35 | $2,230.90 | 70 |
-| T | 71 | $28.56 | $28.10 | $1,995.10 | 65 |
+| T | 72 | $28.56 | $28.10 | $2,023.20 | 65 |
 | TGT | 20 | $104.89 | $102.43 | $2,048.60 | 65 |
-| TSLA | 6 | $288.62 | $295.88 | $1,775.28 | 60 |
+| TSLA | 6 | $288.62 | $295.88 | $1,775.28 | 65 |
 | UNH | 7 | $314.75 | $302.91 | $2,120.37 | 65 |
 | UNP | 9 | $236.60 | $236.49 | $2,128.41 | 75 |
 | V | 7 | $356.12 | $357.76 | $2,504.32 | 85 |
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-09 20:39:25 | SELL | C | 1 | $85.79 | $-0.87 | 80 |
+| 2025-07-09 20:39:25 | BUY | T | 1 | $28.10 | N/A | 65 |
 | 2025-07-09 20:26:19 | SELL | NKE | 3 | $73.56 | $-6.69 | 65 |
 | 2025-07-09 20:26:19 | SELL | WFC | 2 | $81.79 | $-0.96 | 75 |
 | 2025-07-09 20:26:19 | BUY | INTC | 1 | $23.44 | N/A | 65 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-09 19:36:16 | BUY | CVX | 1 | $153.36 | N/A | 85 |
 | 2025-07-09 19:24:35 | SELL | DIS | 1 | $120.95 | $-1.85 | 65 |
 | 2025-07-09 19:24:35 | SELL | PYPL | 1 | $74.80 | $-1.82 | 70 |
-| 2025-07-09 19:24:35 | SELL | CVX | 1 | $153.29 | $6.23 | 75 |
-| 2025-07-09 19:24:35 | BUY | CSCO | 1 | $69.28 | N/A | 75 |
 
 <!--TRADE_LOG_END--> 
