@@ -5,21 +5,21 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-09 23:38:03**
+**Last Updated: 2025-07-09 23:50:33**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,978.85** |
-| Cash | $2,039.97 |
-| Holdings Value | $98,938.88 |
+| Cash | $1,872.55 |
+| Holdings Value | $99,106.30 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
 |---|---|---|---|---|---|
 | AAPL | 10 | $211.08 | $211.14 | $2,111.40 | 70 |
 | ADBE | 5 | $377.60 | $373.38 | $1,866.90 | 65 |
-| AMD | 15 | $135.39 | $138.41 | $2,076.15 | 65 |
-| AMZN | 11 | $221.90 | $222.54 | $2,447.94 | 80 |
+| AMD | 15 | $135.39 | $138.41 | $2,076.15 | 70 |
+| AMZN | 11 | $221.90 | $222.54 | $2,447.94 | 75 |
 | AVGO | 8 | $275.34 | $277.90 | $2,223.20 | 70 |
 | AXP | 7 | $325.28 | $317.35 | $2,221.45 | 75 |
 | BA | 9 | $210.97 | $226.60 | $2,039.40 | 65 |
@@ -41,12 +41,12 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | LLY | 2 | $776.66 | $786.92 | $1,573.84 | 65 |
 | MA | 4 | $563.08 | $565.11 | $2,260.44 | 65 |
 | META | 3 | $717.12 | $732.78 | $2,198.34 | 85 |
-| MRK | 28 | $82.45 | $83.71 | $2,343.88 | 75 |
-| MSFT | 5 | $498.84 | $503.51 | $2,517.55 | 70 |
+| MRK | 30 | $82.53 | $83.71 | $2,511.30 | 80 |
+| MSFT | 5 | $498.84 | $503.51 | $2,517.55 | 75 |
 | NFLX | 1 | $1,279.00 | $1,288.28 | $1,288.28 | 65 |
 | NKE | 28 | $76.03 | $73.56 | $2,059.68 | 65 |
 | NVDA | 16 | $157.22 | $162.88 | $2,606.08 | 85 |
-| ORCL | 9 | $233.31 | $235.81 | $2,122.29 | 65 |
+| ORCL | 9 | $233.31 | $235.81 | $2,122.29 | 70 |
 | PEP | 15 | $136.57 | $134.48 | $2,017.20 | 65 |
 | PFE | 86 | $25.22 | $25.56 | $2,198.16 | 70 |
 | PG | 13 | $160.75 | $157.52 | $2,047.76 | 65 |
@@ -87,6 +87,7 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-09 23:50:27 | BUY | MRK | 2 | $83.71 | N/A | 80 |
 | 2025-07-09 23:37:53 | SELL | PYPL | 1 | $74.83 | $-1.79 | 70 |
 | 2025-07-09 23:37:53 | SELL | C | 2 | $85.79 | $-1.93 | 70 |
 | 2025-07-09 23:37:53 | BUY | UNP | 1 | $236.49 | N/A | 75 |
@@ -111,6 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-09 22:39:46 | BUY | BAC | 2 | $46.84 | N/A | 70 |
 | 2025-07-09 22:39:46 | BUY | PFE | 6 | $25.56 | N/A | 75 |
 | 2025-07-09 22:26:02 | SELL | BAC | 2 | $46.84 | $-3.77 | 65 |
-| 2025-07-09 22:26:02 | SELL | NKE | 3 | $73.56 | $-6.69 | 65 |
 
 <!--TRADE_LOG_END--> 
