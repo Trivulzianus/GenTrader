@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-10 05:28:40**
+**Last Updated: 2025-07-10 05:42:49**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,978.85** |
-| Cash | $586.03 |
-| Holdings Value | $100,392.82 |
+| Cash | $1,052.99 |
+| Holdings Value | $99,925.86 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -21,11 +21,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | AMD | 15 | $135.39 | $138.41 | $2,076.15 | 65 |
 | AMZN | 11 | $221.90 | $222.54 | $2,447.94 | 75 |
 | AVGO | 8 | $275.34 | $277.90 | $2,223.20 | 65 |
-| AXP | 7 | $325.28 | $317.35 | $2,221.45 | 70 |
+| AXP | 7 | $325.28 | $317.35 | $2,221.45 | 75 |
 | BA | 9 | $210.97 | $226.60 | $2,039.40 | 65 |
 | BAC | 47 | $48.68 | $46.84 | $2,201.48 | 70 |
-| C | 31 | $86.66 | $85.79 | $2,659.49 | 85 |
-| CAT | 6 | $397.86 | $402.18 | $2,413.08 | 70 |
+| C | 28 | $86.76 | $85.79 | $2,402.12 | 75 |
+| CAT | 6 | $397.86 | $402.18 | $2,413.08 | 75 |
 | COST | 2 | $979.83 | $982.09 | $1,964.18 | 65 |
 | CRM | 8 | $268.33 | $270.92 | $2,167.36 | 65 |
 | CSCO | 34 | $68.38 | $69.27 | $2,355.18 | 75 |
@@ -48,7 +48,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | NVDA | 16 | $157.22 | $162.88 | $2,606.08 | 85 |
 | ORCL | 9 | $233.31 | $235.81 | $2,122.29 | 65 |
 | PEP | 15 | $136.57 | $134.48 | $2,017.20 | 65 |
-| PFE | 91 | $25.24 | $25.56 | $2,325.96 | 75 |
+| PFE | 86 | $25.22 | $25.56 | $2,198.16 | 70 |
 | PG | 13 | $160.75 | $157.52 | $2,047.76 | 70 |
 | PYPL | 31 | $76.62 | $74.83 | $2,319.73 | 75 |
 | QCOM | 13 | $162.06 | $159.35 | $2,071.55 | 70 |
@@ -59,7 +59,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | UNP | 10 | $236.59 | $236.49 | $2,364.90 | 75 |
 | V | 7 | $356.12 | $357.76 | $2,504.32 | 70 |
 | VZ | 48 | $43.15 | $42.61 | $2,045.28 | 65 |
-| WFC | 30 | $82.28 | $81.79 | $2,453.70 | 80 |
+| WFC | 29 | $82.30 | $81.79 | $2,371.91 | 75 |
 | WMT | 21 | $97.35 | $96.81 | $2,033.01 | 65 |
 | XOM | 20 | $109.83 | $113.80 | $2,276.00 | 75 |
 
@@ -87,6 +87,9 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-10 05:42:42 | SELL | PFE | 5 | $25.56 | $1.61 | 70 |
+| 2025-07-10 05:42:42 | SELL | C | 3 | $85.79 | $-2.62 | 75 |
+| 2025-07-10 05:42:42 | SELL | WFC | 1 | $81.79 | $-0.49 | 75 |
 | 2025-07-10 05:28:31 | BUY | PFE | 11 | $25.56 | N/A | 75 |
 | 2025-07-10 05:28:31 | BUY | MRK | 2 | $83.71 | N/A | 85 |
 | 2025-07-10 05:28:31 | BUY | WFC | 1 | $81.79 | N/A | 80 |
@@ -109,8 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-10 03:17:09 | BUY | NKE | 2 | $73.56 | N/A | 75 |
 | 2025-07-10 03:17:09 | BUY | C | 5 | $85.79 | N/A | 85 |
 | 2025-07-10 02:43:23 | SELL | DIS | 1 | $120.61 | $-2.19 | 65 |
-| 2025-07-10 02:43:23 | BUY | AAPL | 1 | $211.14 | N/A | 75 |
-| 2025-07-10 02:43:23 | BUY | PFE | 12 | $25.56 | N/A | 75 |
-| 2025-07-10 02:43:23 | BUY | C | 1 | $85.79 | N/A | 70 |
 
 <!--TRADE_LOG_END--> 
