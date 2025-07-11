@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-11 06:47:01**
+**Last Updated: 2025-07-11 07:09:51**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$101,396.34** |
-| Cash | $1,804.32 |
-| Holdings Value | $99,592.02 |
+| Cash | $1,543.08 |
+| Holdings Value | $99,853.26 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -24,15 +24,15 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | AXP | 7 | $325.34 | $325.24 | $2,276.68 | 70 |
 | BA | 9 | $210.85 | $226.09 | $2,034.81 | 70 |
 | BAC | 49 | $48.60 | $46.97 | $2,301.53 | 75 |
-| C | 27 | $86.78 | $87.08 | $2,351.16 | 75 |
-| CAT | 6 | $397.86 | $408.33 | $2,449.98 | 70 |
+| C | 30 | $86.81 | $87.08 | $2,612.40 | 85 |
+| CAT | 6 | $397.86 | $408.33 | $2,449.98 | 75 |
 | COST | 2 | $979.83 | $970.17 | $1,940.34 | 65 |
-| CRM | 7 | $268.68 | $263.97 | $1,847.79 | 65 |
+| CRM | 7 | $268.68 | $263.97 | $1,847.79 | 60 |
 | CSCO | 33 | $68.36 | $68.76 | $2,269.08 | 75 |
 | CVX | 17 | $147.15 | $154.17 | $2,620.89 | 85 |
 | DIS | 17 | $122.88 | $121.56 | $2,066.52 | 70 |
 | GOOGL | 13 | $179.61 | $177.62 | $2,309.06 | 75 |
-| GS | 3 | $717.52 | $709.12 | $2,127.36 | 85 |
+| GS | 3 | $717.52 | $709.12 | $2,127.36 | 75 |
 | HD | 6 | $372.64 | $373.30 | $2,239.80 | 65 |
 | INTC | 84 | $22.32 | $23.82 | $2,000.88 | 65 |
 | JNJ | 13 | $155.89 | $157.69 | $2,049.97 | 65 |
@@ -57,7 +57,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | TSLA | 6 | $288.62 | $309.87 | $1,859.22 | 65 |
 | UNH | 6 | $298.34 | $299.51 | $1,797.06 | 65 |
 | UNP | 9 | $236.20 | $237.00 | $2,133.00 | 65 |
-| V | 6 | $355.85 | $355.88 | $2,135.28 | 70 |
+| V | 6 | $355.85 | $355.88 | $2,135.28 | 65 |
 | VZ | 48 | $43.15 | $42.03 | $2,017.44 | 65 |
 | WFC | 28 | $82.30 | $82.36 | $2,306.08 | 75 |
 | WMT | 21 | $97.36 | $94.86 | $1,992.06 | 65 |
@@ -87,6 +87,7 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-11 07:09:46 | BUY | C | 3 | $87.08 | N/A | 85 |
 | 2025-07-11 06:46:52 | BUY | AMD | 1 | $144.16 | N/A | 75 |
 | 2025-07-11 06:46:52 | BUY | CVX | 1 | $154.17 | N/A | 85 |
 | 2025-07-11 06:28:20 | SELL | CVX | 1 | $154.17 | $7.02 | 75 |
@@ -111,6 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-11 05:11:08 | SELL | XOM | 1 | $114.93 | $4.79 | 75 |
 | 2025-07-11 05:11:08 | SELL | INTC | 5 | $23.82 | $7.51 | 60 |
 | 2025-07-11 05:11:08 | SELL | NKE | 1 | $74.62 | $-1.13 | 70 |
-| 2025-07-11 05:11:08 | SELL | CVX | 1 | $154.17 | $7.02 | 75 |
 
 <!--TRADE_LOG_END--> 
