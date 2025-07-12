@@ -5,22 +5,22 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-12 09:37:34**
+**Last Updated: 2025-07-12 09:50:35**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,744.85** |
-| Cash | $1,264.43 |
-| Holdings Value | $99,480.42 |
+| Cash | $1,265.59 |
+| Holdings Value | $99,479.26 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
 |---|---|---|---|---|---|
 | AAPL | 10 | $211.28 | $211.16 | $2,111.60 | 65 |
-| ADBE | 5 | $377.60 | $363.35 | $1,816.75 | 70 |
-| AMD | 15 | $134.63 | $146.42 | $2,196.30 | 75 |
+| ADBE | 5 | $377.60 | $363.35 | $1,816.75 | 65 |
+| AMD | 14 | $133.79 | $146.42 | $2,049.88 | 65 |
 | AMZN | 11 | $221.97 | $225.02 | $2,475.22 | 85 |
-| AVGO | 8 | $275.34 | $274.38 | $2,195.04 | 70 |
+| AVGO | 8 | $275.34 | $274.38 | $2,195.04 | 65 |
 | AXP | 7 | $325.34 | $319.47 | $2,236.29 | 75 |
 | BA | 10 | $212.59 | $226.84 | $2,268.40 | 75 |
 | BAC | 50 | $48.58 | $46.73 | $2,336.50 | 75 |
@@ -42,11 +42,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | MA | 4 | $563.08 | $550.18 | $2,200.72 | 70 |
 | META | 3 | $717.12 | $717.51 | $2,152.53 | 70 |
 | MRK | 26 | $82.34 | $83.36 | $2,167.36 | 70 |
-| MSFT | 5 | $498.84 | $503.32 | $2,516.60 | 75 |
-| NFLX | 1 | $1,279.00 | $1,245.11 | $1,245.11 | 60 |
-| NKE | 28 | $76.10 | $72.63 | $2,033.64 | 65 |
+| MSFT | 5 | $498.84 | $503.32 | $2,516.60 | 70 |
+| NFLX | 1 | $1,279.00 | $1,245.11 | $1,245.11 | 65 |
+| NKE | 30 | $75.87 | $72.63 | $2,178.90 | 70 |
 | NVDA | 16 | $157.38 | $164.92 | $2,638.72 | 85 |
-| ORCL | 9 | $233.26 | $230.56 | $2,075.04 | 65 |
+| ORCL | 9 | $233.26 | $230.56 | $2,075.04 | 70 |
 | PEP | 15 | $136.57 | $135.26 | $2,028.90 | 65 |
 | PFE | 79 | $25.17 | $25.65 | $2,026.35 | 65 |
 | PG | 13 | $160.78 | $157.05 | $2,041.65 | 65 |
@@ -61,7 +61,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | VZ | 49 | $43.12 | $41.62 | $2,039.38 | 65 |
 | WFC | 28 | $82.27 | $82.55 | $2,311.40 | 75 |
 | WMT | 21 | $97.38 | $94.40 | $1,982.40 | 65 |
-| XOM | 21 | $109.99 | $115.43 | $2,424.03 | 80 |
+| XOM | 21 | $109.99 | $115.43 | $2,424.03 | 75 |
 
 <!--PORTFOLIO_STATUS_END-->
 
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-12 09:50:30 | SELL | AMD | 1 | $146.42 | $11.79 | 65 |
+| 2025-07-12 09:50:30 | BUY | NKE | 2 | $72.63 | N/A | 70 |
 | 2025-07-12 09:37:29 | SELL | PFE | 6 | $25.65 | $2.67 | 65 |
 | 2025-07-12 09:25:46 | SELL | DIS | 1 | $119.87 | $-2.93 | 65 |
 | 2025-07-12 09:25:46 | SELL | T | 1 | $26.97 | $-0.14 | 65 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-12 08:09:42 | SELL | T | 6 | $26.97 | $-0.77 | 65 |
 | 2025-07-12 08:09:42 | BUY | NKE | 2 | $72.63 | N/A | 75 |
 | 2025-07-12 08:09:42 | BUY | MRK | 1 | $83.36 | N/A | 70 |
-| 2025-07-12 07:50:21 | SELL | AMD | 1 | $146.42 | $11.05 | 70 |
-| 2025-07-12 07:50:21 | BUY | BAC | 2 | $46.73 | N/A | 75 |
 
 <!--TRADE_LOG_END--> 
