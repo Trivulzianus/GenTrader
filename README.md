@@ -5,19 +5,19 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-12 23:38:22**
+**Last Updated: 2025-07-12 23:51:00**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,744.85** |
-| Cash | $1,122.24 |
-| Holdings Value | $99,622.61 |
+| Cash | $1,286.25 |
+| Holdings Value | $99,458.60 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
 |---|---|---|---|---|---|
-| AAPL | 10 | $211.28 | $211.16 | $2,111.60 | 65 |
-| ADBE | 5 | $377.60 | $363.35 | $1,816.75 | 70 |
+| AAPL | 10 | $211.28 | $211.16 | $2,111.60 | 70 |
+| ADBE | 5 | $377.60 | $363.35 | $1,816.75 | 65 |
 | AMD | 15 | $134.63 | $146.42 | $2,196.30 | 70 |
 | AMZN | 11 | $221.97 | $225.02 | $2,475.22 | 85 |
 | AVGO | 8 | $275.34 | $274.38 | $2,195.04 | 70 |
@@ -34,7 +34,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | GOOGL | 14 | $179.65 | $180.19 | $2,522.66 | 85 |
 | GS | 3 | $717.52 | $704.95 | $2,114.85 | 70 |
 | HD | 6 | $372.64 | $370.07 | $2,220.42 | 65 |
-| INTC | 87 | $22.36 | $23.43 | $2,038.41 | 65 |
+| INTC | 80 | $22.27 | $23.43 | $1,874.40 | 60 |
 | JNJ | 13 | $155.89 | $156.90 | $2,039.70 | 65 |
 | JPM | 9 | $291.63 | $286.86 | $2,581.74 | 85 |
 | KO | 29 | $71.03 | $69.87 | $2,026.23 | 65 |
@@ -57,11 +57,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | TSLA | 6 | $288.62 | $313.51 | $1,881.06 | 65 |
 | UNH | 7 | $298.51 | $304.10 | $2,128.70 | 65 |
 | UNP | 10 | $236.18 | $235.10 | $2,351.00 | 75 |
-| V | 6 | $355.85 | $347.93 | $2,087.58 | 70 |
+| V | 6 | $355.85 | $347.93 | $2,087.58 | 65 |
 | VZ | 49 | $43.12 | $41.62 | $2,039.38 | 65 |
 | WFC | 28 | $82.27 | $82.55 | $2,311.40 | 75 |
 | WMT | 21 | $97.38 | $94.40 | $1,982.40 | 65 |
-| XOM | 22 | $110.24 | $115.43 | $2,539.46 | 85 |
+| XOM | 22 | $110.24 | $115.43 | $2,539.46 | 80 |
 
 <!--PORTFOLIO_STATUS_END-->
 
@@ -87,6 +87,7 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-12 23:50:55 | SELL | INTC | 7 | $23.43 | $7.46 | 60 |
 | 2025-07-12 23:38:17 | SELL | NKE | 2 | $72.63 | $-6.49 | 65 |
 | 2025-07-12 23:38:17 | SELL | T | 1 | $26.97 | $-0.14 | 65 |
 | 2025-07-12 23:26:33 | BUY | XOM | 1 | $115.43 | N/A | 85 |
@@ -111,6 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-12 22:08:26 | SELL | DIS | 1 | $119.87 | $-2.93 | 65 |
 | 2025-07-12 22:08:26 | BUY | C | 3 | $86.73 | N/A | 85 |
 | 2025-07-12 22:08:26 | BUY | T | 6 | $26.97 | N/A | 70 |
-| 2025-07-12 21:50:04 | SELL | PEP | 1 | $135.26 | $-1.23 | 65 |
 
 <!--TRADE_LOG_END--> 
