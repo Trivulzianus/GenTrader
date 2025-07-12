@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-12 18:10:20**
+**Last Updated: 2025-07-12 18:27:21**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,744.85** |
-| Cash | $1,077.10 |
-| Holdings Value | $99,667.75 |
+| Cash | $1,023.44 |
+| Holdings Value | $99,721.41 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -19,8 +19,8 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | AAPL | 10 | $211.28 | $211.16 | $2,111.60 | 65 |
 | ADBE | 5 | $377.60 | $363.35 | $1,816.75 | 65 |
 | AMD | 16 | $135.37 | $146.42 | $2,342.72 | 75 |
-| AMZN | 11 | $221.97 | $225.02 | $2,475.22 | 75 |
-| AVGO | 8 | $275.34 | $274.38 | $2,195.04 | 70 |
+| AMZN | 11 | $221.97 | $225.02 | $2,475.22 | 80 |
+| AVGO | 8 | $275.34 | $274.38 | $2,195.04 | 65 |
 | AXP | 7 | $325.34 | $319.47 | $2,236.29 | 75 |
 | BA | 9 | $211.01 | $226.84 | $2,041.56 | 70 |
 | BAC | 47 | $48.70 | $46.73 | $2,196.31 | 70 |
@@ -34,7 +34,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | GOOGL | 14 | $179.65 | $180.19 | $2,522.66 | 85 |
 | GS | 3 | $717.52 | $704.95 | $2,114.85 | 75 |
 | HD | 6 | $372.64 | $370.07 | $2,220.42 | 65 |
-| INTC | 81 | $22.29 | $23.43 | $1,897.83 | 60 |
+| INTC | 86 | $22.35 | $23.43 | $2,014.98 | 65 |
 | JNJ | 13 | $155.89 | $156.90 | $2,039.70 | 65 |
 | JPM | 9 | $291.63 | $286.86 | $2,581.74 | 85 |
 | KO | 29 | $71.03 | $69.87 | $2,026.23 | 65 |
@@ -50,9 +50,9 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | PEP | 16 | $136.49 | $135.26 | $2,164.16 | 65 |
 | PFE | 80 | $25.18 | $25.65 | $2,052.00 | 65 |
 | PG | 13 | $160.78 | $157.05 | $2,041.65 | 65 |
-| PYPL | 29 | $72.10 | $71.36 | $2,069.44 | 65 |
+| PYPL | 30 | $72.08 | $71.36 | $2,140.80 | 70 |
 | QCOM | 15 | $161.55 | $157.46 | $2,361.90 | 75 |
-| T | 81 | $27.10 | $26.97 | $2,184.57 | 70 |
+| T | 76 | $27.11 | $26.97 | $2,049.72 | 65 |
 | TGT | 20 | $104.91 | $104.24 | $2,084.80 | 65 |
 | TSLA | 6 | $288.62 | $313.51 | $1,881.06 | 65 |
 | UNH | 7 | $298.51 | $304.10 | $2,128.70 | 65 |
@@ -61,7 +61,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | VZ | 49 | $43.12 | $41.62 | $2,039.38 | 65 |
 | WFC | 28 | $82.27 | $82.55 | $2,311.40 | 75 |
 | WMT | 21 | $97.38 | $94.40 | $1,982.40 | 65 |
-| XOM | 21 | $109.99 | $115.43 | $2,424.03 | 80 |
+| XOM | 21 | $109.99 | $115.43 | $2,424.03 | 75 |
 
 <!--PORTFOLIO_STATUS_END-->
 
@@ -87,6 +87,9 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-12 18:27:12 | SELL | T | 5 | $26.97 | $-0.64 | 65 |
+| 2025-07-12 18:27:12 | BUY | INTC | 5 | $23.43 | N/A | 65 |
+| 2025-07-12 18:27:12 | BUY | PYPL | 1 | $71.36 | N/A | 70 |
 | 2025-07-12 18:10:10 | SELL | INTC | 6 | $23.43 | $6.39 | 60 |
 | 2025-07-12 18:10:10 | SELL | PFE | 6 | $25.65 | $2.64 | 65 |
 | 2025-07-12 18:10:10 | BUY | AMD | 2 | $146.42 | N/A | 75 |
@@ -109,8 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-12 17:24:48 | BUY | XOM | 2 | $115.43 | N/A | 85 |
 | 2025-07-12 17:24:48 | BUY | CSCO | 1 | $67.95 | N/A | 70 |
 | 2025-07-12 17:06:56 | SELL | XOM | 1 | $115.43 | $5.19 | 75 |
-| 2025-07-12 17:06:56 | SELL | CSCO | 1 | $67.95 | $-0.46 | 65 |
-| 2025-07-12 17:06:56 | SELL | T | 5 | $26.97 | $-0.64 | 65 |
-| 2025-07-12 17:06:56 | BUY | NKE | 1 | $72.63 | N/A | 70 |
 
 <!--TRADE_LOG_END--> 
