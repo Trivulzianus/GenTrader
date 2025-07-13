@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-13 05:10:04**
+**Last Updated: 2025-07-13 05:26:19**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,744.85** |
-| Cash | $997.46 |
-| Holdings Value | $99,747.39 |
+| Cash | $1,112.39 |
+| Holdings Value | $99,632.46 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -34,7 +34,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | GOOGL | 13 | $179.61 | $180.19 | $2,342.47 | 75 |
 | GS | 3 | $717.52 | $704.95 | $2,114.85 | 70 |
 | HD | 6 | $372.64 | $370.07 | $2,220.42 | 65 |
-| INTC | 86 | $22.35 | $23.43 | $2,014.98 | 65 |
+| INTC | 80 | $22.27 | $23.43 | $1,874.40 | 60 |
 | JNJ | 13 | $155.89 | $156.90 | $2,039.70 | 65 |
 | JPM | 9 | $291.63 | $286.86 | $2,581.74 | 75 |
 | KO | 29 | $71.03 | $69.87 | $2,026.23 | 65 |
@@ -48,10 +48,10 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | NVDA | 16 | $157.38 | $164.92 | $2,638.72 | 85 |
 | ORCL | 9 | $233.26 | $230.56 | $2,075.04 | 70 |
 | PEP | 15 | $136.57 | $135.26 | $2,028.90 | 65 |
-| PFE | 84 | $25.20 | $25.65 | $2,154.60 | 70 |
+| PFE | 85 | $25.21 | $25.65 | $2,180.25 | 70 |
 | PG | 13 | $160.78 | $157.05 | $2,041.65 | 65 |
 | PYPL | 29 | $72.10 | $71.36 | $2,069.44 | 65 |
-| QCOM | 15 | $161.55 | $157.46 | $2,361.90 | 80 |
+| QCOM | 15 | $161.55 | $157.46 | $2,361.90 | 75 |
 | T | 76 | $27.11 | $26.97 | $2,049.72 | 65 |
 | TGT | 20 | $104.91 | $104.24 | $2,084.80 | 65 |
 | TSLA | 6 | $288.62 | $313.51 | $1,881.06 | 65 |
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-13 05:26:13 | SELL | INTC | 6 | $23.43 | $6.47 | 60 |
+| 2025-07-13 05:26:13 | BUY | PFE | 1 | $25.65 | N/A | 70 |
 | 2025-07-13 05:09:59 | SELL | XOM | 2 | $115.43 | $9.93 | 75 |
 | 2025-07-13 05:09:59 | SELL | MRK | 1 | $83.36 | $1.02 | 65 |
 | 2025-07-13 05:09:59 | BUY | NKE | 2 | $72.63 | N/A | 70 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-13 03:37:23 | BUY | WMT | 1 | $94.40 | N/A | 65 |
 | 2025-07-13 02:52:05 | SELL | BAC | 3 | $46.73 | $-5.92 | 65 |
 | 2025-07-13 02:52:05 | SELL | NKE | 2 | $72.63 | $-6.28 | 65 |
-| 2025-07-13 02:52:05 | SELL | WMT | 1 | $94.40 | $-2.98 | 60 |
-| 2025-07-13 02:52:05 | SELL | PFE | 4 | $25.65 | $1.80 | 65 |
 
 <!--TRADE_LOG_END--> 
