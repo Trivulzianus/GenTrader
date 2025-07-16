@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-16 09:43:47**
+**Last Updated: 2025-07-16 09:54:42**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,371.17** |
-| Cash | $655.09 |
-| Holdings Value | $99,716.08 |
+| Cash | $432.25 |
+| Holdings Value | $99,938.92 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -20,7 +20,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | ADBE | 6 | $375.23 | $364.18 | $2,185.08 | 65 |
 | AMD | 14 | $144.29 | $155.61 | $2,178.54 | 70 |
 | AMZN | 10 | $221.65 | $226.35 | $2,263.50 | 70 |
-| AVGO | 8 | $275.34 | $280.94 | $2,247.52 | 70 |
+| AVGO | 8 | $275.34 | $280.94 | $2,247.52 | 65 |
 | AXP | 7 | $325.34 | $310.65 | $2,174.55 | 65 |
 | BA | 9 | $210.91 | $230.00 | $2,070.00 | 65 |
 | BAC | 48 | $46.27 | $46.15 | $2,215.20 | 70 |
@@ -42,11 +42,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | MA | 4 | $563.08 | $550.36 | $2,201.44 | 65 |
 | META | 3 | $717.12 | $710.39 | $2,131.17 | 70 |
 | MRK | 26 | $82.50 | $81.52 | $2,119.52 | 65 |
-| MSFT | 5 | $498.84 | $505.82 | $2,529.10 | 70 |
+| MSFT | 5 | $498.84 | $505.82 | $2,529.10 | 85 |
 | NFLX | 1 | $1,279.00 | $1,260.27 | $1,260.27 | 65 |
-| NKE | 29 | $72.03 | $71.99 | $2,087.71 | 65 |
+| NKE | 31 | $72.03 | $71.99 | $2,231.69 | 70 |
 | NVDA | 14 | $171.62 | $170.70 | $2,389.80 | 70 |
-| ORCL | 9 | $233.15 | $234.96 | $2,114.64 | 65 |
+| ORCL | 9 | $233.15 | $234.96 | $2,114.64 | 70 |
 | PEP | 15 | $136.57 | $133.81 | $2,007.15 | 65 |
 | PFE | 85 | $25.28 | $24.61 | $2,091.85 | 65 |
 | PG | 14 | $152.15 | $152.68 | $2,137.52 | 65 |
@@ -59,7 +59,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | UNP | 10 | $236.13 | $231.14 | $2,311.40 | 75 |
 | V | 6 | $355.85 | $347.02 | $2,082.12 | 65 |
 | VZ | 50 | $43.08 | $41.26 | $2,063.00 | 65 |
-| WFC | 27 | $78.90 | $78.86 | $2,129.22 | 65 |
+| WFC | 28 | $78.90 | $78.86 | $2,208.08 | 70 |
 | WMT | 22 | $97.29 | $95.39 | $2,098.58 | 65 |
 | XOM | 21 | $110.02 | $112.91 | $2,371.11 | 75 |
 
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-16 09:54:37 | BUY | NKE | 2 | $71.99 | N/A | 70 |
+| 2025-07-16 09:54:37 | BUY | WFC | 1 | $78.86 | N/A | 70 |
 | 2025-07-16 09:29:00 | SELL | CSCO | 2 | $67.18 | $-2.40 | 65 |
 | 2025-07-16 09:12:48 | BUY | BAC | 3 | $46.15 | N/A | 70 |
 | 2025-07-16 09:12:48 | BUY | CSCO | 2 | $67.18 | N/A | 70 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-16 07:51:28 | BUY | T | 6 | $27.02 | N/A | 70 |
 | 2025-07-16 07:39:16 | SELL | NVDA | 1 | $170.70 | $-0.85 | 70 |
 | 2025-07-16 07:39:16 | SELL | CVX | 1 | $150.69 | $3.48 | 80 |
-| 2025-07-16 07:26:19 | BUY | WFC | 1 | $78.86 | N/A | 70 |
-| 2025-07-16 06:47:56 | SELL | WFC | 1 | $78.86 | $-0.04 | 65 |
 
 <!--TRADE_LOG_END--> 
