@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-17 01:59:25**
+**Last Updated: 2025-07-17 02:46:57**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$100,778.09** |
-| Cash | $1,843.62 |
-| Holdings Value | $98,934.47 |
+| Cash | $1,979.76 |
+| Holdings Value | $98,798.33 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -20,21 +20,21 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | ADBE | 6 | $375.23 | $361.77 | $2,170.62 | 65 |
 | AMD | 13 | $160.08 | $160.08 | $2,081.04 | 70 |
 | AMZN | 10 | $221.65 | $223.19 | $2,231.90 | 75 |
-| AVGO | 8 | $275.34 | $280.81 | $2,246.48 | 70 |
+| AVGO | 8 | $275.34 | $280.81 | $2,246.48 | 65 |
 | AXP | 6 | $308.37 | $311.90 | $1,871.40 | 65 |
 | BA | 9 | $210.81 | $229.90 | $2,069.10 | 65 |
 | BAC | 48 | $46.24 | $46.03 | $2,209.44 | 70 |
 | C | 30 | $86.85 | $90.02 | $2,700.60 | 85 |
 | CAT | 6 | $397.74 | $412.88 | $2,477.28 | 85 |
 | COST | 2 | $979.83 | $951.37 | $1,902.74 | 65 |
-| CRM | 8 | $267.44 | $257.95 | $2,063.60 | 65 |
+| CRM | 8 | $267.44 | $257.95 | $2,063.60 | 60 |
 | CSCO | 31 | $68.46 | $67.37 | $2,088.47 | 65 |
 | CVX | 16 | $146.83 | $149.92 | $2,398.72 | 75 |
 | DIS | 18 | $122.77 | $119.82 | $2,156.76 | 65 |
 | GOOGL | 13 | $179.34 | $182.97 | $2,378.61 | 75 |
 | GS | 3 | $717.52 | $708.82 | $2,126.46 | 85 |
 | HD | 5 | $353.54 | $357.40 | $1,787.00 | 65 |
-| INTC | 90 | $22.37 | $22.69 | $2,042.10 | 65 |
+| INTC | 84 | $22.35 | $22.69 | $1,905.96 | 60 |
 | JNJ | 13 | $155.43 | $164.78 | $2,142.14 | 70 |
 | JPM | 8 | $292.65 | $285.82 | $2,286.56 | 75 |
 | KO | 30 | $70.97 | $69.27 | $2,078.10 | 65 |
@@ -46,7 +46,7 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | NFLX | 1 | $1,279.00 | $1,250.31 | $1,250.31 | 65 |
 | NKE | 29 | $71.97 | $72.10 | $2,090.90 | 65 |
 | NVDA | 15 | $171.51 | $171.37 | $2,570.55 | 85 |
-| ORCL | 9 | $232.99 | $241.30 | $2,171.70 | 70 |
+| ORCL | 9 | $232.99 | $241.30 | $2,171.70 | 65 |
 | PEP | 15 | $136.57 | $135.35 | $2,030.25 | 65 |
 | PFE | 84 | $25.28 | $24.61 | $2,067.24 | 65 |
 | PG | 13 | $152.06 | $153.73 | $1,998.49 | 65 |
@@ -87,6 +87,7 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-17 02:46:50 | SELL | INTC | 6 | $22.69 | $1.93 | 60 |
 | 2025-07-17 01:59:20 | SELL | NKE | 2 | $72.10 | $0.23 | 65 |
 | 2025-07-17 01:59:20 | SELL | CSCO | 1 | $67.37 | $-1.05 | 65 |
 | 2025-07-17 01:59:20 | SELL | T | 1 | $26.95 | $-0.15 | 65 |
@@ -111,6 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-16 23:08:26 | SELL | WFC | 1 | $79.91 | $1.05 | 70 |
 | 2025-07-16 23:08:26 | BUY | NKE | 1 | $72.10 | N/A | 75 |
 | 2025-07-16 22:53:05 | SELL | T | 1 | $26.95 | $-0.15 | 65 |
-| 2025-07-16 22:53:05 | BUY | XOM | 1 | $112.23 | N/A | 75 |
 
 <!--TRADE_LOG_END--> 
