@@ -5,13 +5,13 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 ## Portfolio Status
 
 <!--PORTFOLIO_STATUS_START-->
-**Last Updated: 2025-07-18 05:30:04**
+**Last Updated: 2025-07-18 05:45:57**
 
 | Metric | Value |
 |---|---|
 | **Total Value** | **$101,424.08** |
-| Cash | $601.27 |
-| Holdings Value | $100,822.81 |
+| Cash | $1,083.87 |
+| Holdings Value | $100,340.21 |
 
 ### Holdings
 | Symbol | Shares | Avg Cost | Current Price | Current Value | Confidence |
@@ -28,11 +28,11 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | CAT | 6 | $397.74 | $418.07 | $2,508.42 | 70 |
 | COST | 2 | $979.83 | $953.91 | $1,907.82 | 65 |
 | CRM | 8 | $267.44 | $259.88 | $2,079.04 | 65 |
-| CSCO | 35 | $68.55 | $68.30 | $2,390.50 | 75 |
+| CSCO | 33 | $68.56 | $68.30 | $2,253.90 | 70 |
 | CVX | 16 | $146.84 | $151.38 | $2,422.08 | 75 |
 | DIS | 19 | $122.64 | $122.21 | $2,321.99 | 70 |
 | GOOGL | 13 | $179.34 | $183.58 | $2,386.54 | 70 |
-| GS | 3 | $717.52 | $705.84 | $2,117.52 | 70 |
+| GS | 3 | $717.52 | $705.84 | $2,117.52 | 75 |
 | HD | 6 | $354.18 | $359.04 | $2,154.24 | 65 |
 | INTC | 84 | $22.34 | $22.80 | $1,915.20 | 60 |
 | JNJ | 13 | $155.43 | $162.98 | $2,118.74 | 70 |
@@ -40,14 +40,14 @@ This project is an AI-powered day trading agent that uses OpenAI's GPT models to
 | KO | 30 | $70.97 | $70.59 | $2,117.70 | 65 |
 | LLY | 3 | $781.32 | $761.50 | $2,284.50 | 65 |
 | MA | 4 | $563.08 | $555.61 | $2,222.44 | 65 |
-| META | 3 | $717.12 | $701.41 | $2,104.23 | 70 |
+| META | 3 | $717.12 | $701.41 | $2,104.23 | 75 |
 | MRK | 29 | $82.56 | $81.52 | $2,364.08 | 75 |
 | MSFT | 5 | $498.84 | $511.70 | $2,558.50 | 85 |
 | NFLX | 1 | $1,279.00 | $1,274.17 | $1,274.17 | 65 |
 | NKE | 29 | $71.95 | $72.98 | $2,116.42 | 65 |
-| NVDA | 15 | $171.80 | $173.00 | $2,595.00 | 85 |
-| ORCL | 9 | $232.91 | $248.75 | $2,238.75 | 70 |
-| PEP | 15 | $135.89 | $145.44 | $2,181.60 | 65 |
+| NVDA | 13 | $171.61 | $173.00 | $2,249.00 | 70 |
+| ORCL | 9 | $232.91 | $248.75 | $2,238.75 | 75 |
+| PEP | 15 | $135.89 | $145.44 | $2,181.60 | 70 |
 | PFE | 85 | $25.27 | $24.58 | $2,089.30 | 65 |
 | PG | 13 | $151.91 | $155.62 | $2,023.06 | 65 |
 | PYPL | 32 | $72.34 | $73.86 | $2,363.52 | 75 |
@@ -87,6 +87,8 @@ This is an experimental project for educational purposes. It is not financial ad
 <!--TRADE_LOG_START-->
 | Timestamp | Action | Symbol | Shares | Price | P/L | Confidence |
 |---|---|---|---|---|---|---|
+| 2025-07-18 05:45:52 | SELL | NVDA | 2 | $173.00 | $2.40 | 70 |
+| 2025-07-18 05:45:52 | SELL | CSCO | 2 | $68.30 | $-0.50 | 70 |
 | 2025-07-18 05:29:57 | BUY | NVDA | 2 | $173.00 | N/A | 85 |
 | 2025-07-18 05:29:57 | BUY | CSCO | 2 | $68.30 | N/A | 75 |
 | 2025-07-18 05:13:52 | SELL | AMD | 1 | $160.41 | $0.36 | 70 |
@@ -110,7 +112,5 @@ This is an experimental project for educational purposes. It is not financial ad
 | 2025-07-18 04:06:55 | BUY | WFC | 1 | $79.71 | N/A | 70 |
 | 2025-07-18 04:06:55 | BUY | CSCO | 1 | $68.30 | N/A | 75 |
 | 2025-07-18 03:36:22 | SELL | WFC | 2 | $79.71 | $1.89 | 65 |
-| 2025-07-18 03:36:22 | BUY | NKE | 3 | $72.98 | N/A | 75 |
-| 2025-07-18 02:48:16 | SELL | AMD | 1 | $160.41 | $0.38 | 65 |
 
 <!--TRADE_LOG_END--> 
